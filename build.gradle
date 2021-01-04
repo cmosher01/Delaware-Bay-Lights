@@ -1,0 +1,71 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'org.beryx.jlink' version '2.22.2'
+    id 'com.coditory.manifest' version '0.1.8'
+}
+
+def inc(module) {
+    apply from: "${projectDir}/gradle/${module}.gradle"
+}
+
+inc('version')
+
+group = 'nu.mine.mosher'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_15
+    modularity.inferModulePath.set true
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << '-Xlint:deprecation'
+    options.compilerArgs << '--enable-preview'
+}
+
+inc('dependencies')
+
+application {
+    mainModule.set 'nu.mine.mosher'
+    mainClass.set 'nu.mine.mosher.Lights'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Specification-Version': manifest.attributes.get('Implementation-Version'),
+            'Implementation-Version': manifest.attributes.get('Implementation-Version').toString()+"+"+manifest.attributes.get('SCM-Commit-Hash').toString()
+        )
+    }
+}
+
+def os = org.gradle.internal.os.OperatingSystem.current()
+println "detected OS: ${os}"
+
+jlink {
+    mergedModule {
+        additive = true
+        requires 'org.slf4j'
+    }
+    jpackage {
+        if (os.windows) {
+            installerOptions += [
+                '--win-dir-chooser',
+                '--win-menu',
+                '--win-shortcut'
+            ]
+        } else if (os.linux) {
+            installerOptions += [
+                '--linux-shortcut'
+            ]
+        }
+        installerOptions += [ '--verbose' ]
+    }
+    launcher {
+        jvmArgs += '--enable-preview'
+    }
+}
+
+assemble {
+    dependsOn tasks.jpackage
+}
