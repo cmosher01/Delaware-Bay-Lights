@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-06T14:37:40.162410983</dc:date><meta:editing-duration>PT23H28M40S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:generator>LibreOffice/6.4.6.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="459" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">29520</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">13998</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Sheet1">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">159</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1776</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">159</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsValueHighlightingEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">twH+/09LSV9EQVRBX0NPUlBfQzUzMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpPS0lfREFUQV9DT1JQX0M1MzEAAAAAAAAAAAAWAAMA2AAAAAEAAQAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9T0tJX0RBVEFfQ09SUF9DNTMxCm9yaWVudGF0aW9uPUxhbmRzY2FwZQpjb3BpZXM9MQpjb2xsYXRlPWZhbHNlCm1hcmdpbmRhanVzdG1lbnQ9MCwwLDAsMApjb2xvcmRlcHRoPTI0CnBzbGV2ZWw9MApwZGZkZXZpY2U9MQpjb2xvcmRldmljZT0wClBQRENvbnRleERhdGEKUGFnZVNpemU6TGV0dGVyAElucHV0U2xvdDpVcHBlcgBEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUPAER1cGxleE1vZGU6Ok9mZg==</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">OKI_DATA_CORP_C531</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="0.5in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="US" style:font-name-asian="Noto Sans CJK SC" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N121">
+   <number:number number:decimal-places="1" loext:min-decimal-places="1" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N122">
+   <number:number number:decimal-places="3" loext:min-decimal-places="3" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N123">
+   <number:number number:decimal-places="4" loext:min-decimal-places="4" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N124">
+   <number:number number:decimal-places="5" loext:min-decimal-places="5" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N125">
+   <number:number number:decimal-places="6" loext:min-decimal-places="6" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N126">
+   <number:number number:decimal-places="7" loext:min-decimal-places="7" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N127">
+   <number:number number:decimal-places="8" loext:min-decimal-places="8" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N128">
+   <number:number number:decimal-places="9" loext:min-decimal-places="9" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N129">
+   <number:number number:decimal-places="10" loext:min-decimal-places="10" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N130">
+   <number:number number:decimal-places="11" loext:min-decimal-places="11" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N131">
+   <number:number number:decimal-places="1" loext:min-decimal-places="1" number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="Default" style:family="table-cell"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" fo:font-size="24pt" fo:font-style="normal" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:color="#000000" fo:font-size="18pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:color="#000000" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Text" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Note" style:family="table-cell" style:parent-style-name="Text">
+   <style:table-cell-properties fo:background-color="#ffffcc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="0.74pt solid #808080"/>
+   <style:text-properties fo:color="#333333" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Footnote" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#808080" fo:font-size="10pt" fo:font-style="italic" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Hyperlink" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#0000ee" fo:font-size="10pt" fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="#0000ee" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Status" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Good" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ccffcc"/>
+   <style:text-properties fo:color="#006600" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Neutral" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffffcc"/>
+   <style:text-properties fo:color="#996600" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Bad" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffcccc"/>
+   <style:text-properties fo:color="#cc0000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Warning" style:family="table-cell" style:parent-style-name="Status">
+   <style:text-properties fo:color="#cc0000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Error" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#cc0000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Accent" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Accent_20_1" style:display-name="Accent 1" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#000000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Accent_20_2" style:display-name="Accent 2" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#808080"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Accent_20_3" style:display-name="Accent 3" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#dddddd"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5764in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5665in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5457in"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4465in"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5598in"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5929in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.0339in"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.0819in"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4201in"/>
+  </style:style>
+  <style:style style:name="co10" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5555in"/>
+  </style:style>
+  <style:style style:name="co11" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.3819in"/>
+  </style:style>
+  <style:style style:name="co12" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.328in"/>
+  </style:style>
+  <style:style style:name="co13" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.3728in"/>
+  </style:style>
+  <style:style style:name="co14" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.2354in"/>
+  </style:style>
+  <style:style style:name="co15" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.9244in"/>
+  </style:style>
+  <style:style style:name="co16" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:number-style style:name="N1">
+   <number:number number:decimal-places="0" loext:min-decimal-places="0" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N2">
+   <number:number number:decimal-places="2" loext:min-decimal-places="2" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:text-style style:name="N100">
+   <number:text-content/>
+  </number:text-style>
+  <style:style style:name="ce35" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce36" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce37" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121"/>
+  <style:style style:name="ce38" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N1">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N1"/>
+  <style:style style:name="ce40" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce41" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce42" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128"/>
+  <style:style style:name="ce43" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce44" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce45" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce46" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce47" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131"/>
+  <style:style style:name="ce48" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce49" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce50" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce51" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100"/>
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce20" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N121"/>
+  <style:style style:name="ce21" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N1">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce22" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N1"/>
+  <style:style style:name="ce23" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce25" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N128"/>
+  <style:style style:name="ce26" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce27" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce28" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce29" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce30" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131"/>
+  <style:style style:name="ce31" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce32" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce33" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce34" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100"/>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="11in" fo:page-height="8.5in" style:num-format="1" style:print-orientation="landscape" fo:margin-left="0.2307in" fo:margin-right="0.1555in" loext:scale-to-X="1" loext:scale-to-Y="1" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.5in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.3in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.1in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header style:display="false">
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer style:display="false">
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-06">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="14:43:30.161581865">00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number><text:s/>/ <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
+   <table:table table:name="Sheet1" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce22"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce22"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce25"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce25"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co11" table:default-cell-style-name="ce30"/>
+    <table:table-column table:style-name="co12" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co14" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co15" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co16" table:number-columns-repeated="49" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>true bearing</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>true abs</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
+      <text:p>true mils</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>mag</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>mag abs</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
+      <text:p>mag mils</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
+      <text:p>latitude</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
+      <text:p>longitude</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>style</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>color</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
+      <text:p>rate (sec.)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce31" office:value-type="string" calcext:value-type="string">
+      <text:p>height (ft.)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string">
+      <text:p>vis dist (N Mi.)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>label</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce19" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A2];360)" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B2]*17.777778" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A2]+12" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D2];360)" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E2]*17.777778" office:value-type="float" office:value="213.333336" calcext:value-type="float">
+      <text:p>213</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce24" office:value-type="float" office:value="38.784802975" calcext:value-type="float">
+      <text:p>38.784802975</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce24" office:value-type="float" office:value="-75.104300603" calcext:value-type="float">
+      <text:p>-75.104300603</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce27"/>
+     <table:table-cell table:style-name="ce33"/>
+     <table:table-cell table:style-name="ce27"/>
+     <table:table-cell table:style-name="ce27" office:value-type="string" calcext:value-type="string">
+      <text:p>viewing location</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G3]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G3]))*COS(RADIANS([.H3]-[.H$2]));SIN(RADIANS([.H3]-[.H$2]))*COS(RADIANS([.G3]))))" office:value-type="float" office:value="-87.848924465323" calcext:value-type="float">
+      <text:p>-87.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A3];360)" office:value-type="float" office:value="272.151075534677" calcext:value-type="float">
+      <text:p>272.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]*17.777778" office:value-type="float" office:value="4838.24140331672" calcext:value-type="float">
+      <text:p>4838</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A3]+[.D$2]" office:value-type="float" office:value="-75.848924465323" calcext:value-type="float">
+      <text:p>-75.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D3];360)" office:value-type="float" office:value="284.151075534677" calcext:value-type="float">
+      <text:p>284.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E3]*17.777778" office:value-type="float" office:value="5051.57473931672" calcext:value-type="float">
+      <text:p>5052</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.785305" calcext:value-type="float">
+      <text:p>38.785305000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.12149" calcext:value-type="float">
+      <text:p>-75.121490000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="27" calcext:value-type="float">
+      <text:p>27</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Lewes Breakwater Middle Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G4]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G4]))*COS(RADIANS([.H4]-[.H$2]));SIN(RADIANS([.H4]-[.H$2]))*COS(RADIANS([.G4]))))" office:value-type="float" office:value="-76.9078704485312" calcext:value-type="float">
+      <text:p>-76.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A4];360)" office:value-type="float" office:value="283.092129551469" calcext:value-type="float">
+      <text:p>283.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*17.777778" office:value-type="float" office:value="5032.74903271325" calcext:value-type="float">
+      <text:p>5033</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A4]+[.D$2]" office:value-type="float" office:value="-64.9078704485312" calcext:value-type="float">
+      <text:p>-64.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D4];360)" office:value-type="float" office:value="295.092129551469" calcext:value-type="float">
+      <text:p>295.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E4]*17.777778" office:value-type="float" office:value="5246.08236871325" calcext:value-type="float">
+      <text:p>5246</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.79414" calcext:value-type="float">
+      <text:p>38.794140000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.155875" calcext:value-type="float">
+      <text:p>-75.155875000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>green</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18" calcext:value-type="float">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>1R </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Roosevelt Inlet Jetty Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G5]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G5]))*COS(RADIANS([.H5]-[.H$2]));SIN(RADIANS([.H5]-[.H$2]))*COS(RADIANS([.G5]))))" office:value-type="float" office:value="-76.3024856238708" calcext:value-type="float">
+      <text:p>-76.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A5];360)" office:value-type="float" office:value="283.697514376129" calcext:value-type="float">
+      <text:p>283.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]*17.777778" office:value-type="float" office:value="5043.51142973064" calcext:value-type="float">
+      <text:p>5044</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A5]+[.D$2]" office:value-type="float" office:value="-64.3024856238708" calcext:value-type="float">
+      <text:p>-64.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D5];360)" office:value-type="float" office:value="295.697514376129" calcext:value-type="float">
+      <text:p>295.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E5]*17.777778" office:value-type="float" office:value="5256.84476573063" calcext:value-type="float">
+      <text:p>5257</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.794866667" calcext:value-type="float">
+      <text:p>38.794866667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.157341667" calcext:value-type="float">
+      <text:p>-75.157341667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18" calcext:value-type="float">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>2 <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Roosevelt Inlet Jetty Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G6]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G6]))*COS(RADIANS([.H6]-[.H$2]));SIN(RADIANS([.H6]-[.H$2]))*COS(RADIANS([.G6]))))" office:value-type="float" office:value="-74.6676725451642" calcext:value-type="float">
+      <text:p>-74.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A6];360)" office:value-type="float" office:value="285.332327454836" calcext:value-type="float">
+      <text:p>285.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B6]*17.777778" office:value-type="float" office:value="5072.57477371538" calcext:value-type="float">
+      <text:p>5073</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A6]+[.D$2]" office:value-type="float" office:value="-62.6676725451642" calcext:value-type="float">
+      <text:p>-62.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D6];360)" office:value-type="float" office:value="297.332327454836" calcext:value-type="float">
+      <text:p>297.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E6]*17.777778" office:value-type="float" office:value="5285.90810971538" calcext:value-type="float">
+      <text:p>5286</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.787773333" calcext:value-type="float">
+      <text:p>38.787773333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.118203333" calcext:value-type="float">
+      <text:p>-75.118203333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Iso</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="49" calcext:value-type="float">
+      <text:p>49</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Lewes Breakwater Front Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G7]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G7]))*COS(RADIANS([.H7]-[.H$2]));SIN(RADIANS([.H7]-[.H$2]))*COS(RADIANS([.G7]))))" office:value-type="float" office:value="-61.1455141597097" calcext:value-type="float">
+      <text:p>-61.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A7];360)" office:value-type="float" office:value="298.85448584029" calcext:value-type="float">
+      <text:p>298.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B7]*17.777778" office:value-type="float" office:value="5312.96870357283" calcext:value-type="float">
+      <text:p>5313</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A7]+[.D$2]" office:value-type="float" office:value="-49.1455141597097" calcext:value-type="float">
+      <text:p>-49.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D7];360)" office:value-type="float" office:value="310.85448584029" calcext:value-type="float">
+      <text:p>310.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E7]*17.777778" office:value-type="float" office:value="5526.30203957283" calcext:value-type="float">
+      <text:p>5526</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.796586667" calcext:value-type="float">
+      <text:p>38.796586667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.131748333" calcext:value-type="float">
+      <text:p>-75.131748333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>CG <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Harbor of Refuge Lighted Mooring Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G8]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G8]))*COS(RADIANS([.H8]-[.H$2]));SIN(RADIANS([.H8]-[.H$2]))*COS(RADIANS([.G8]))))" office:value-type="float" office:value="-44.7757870330182" calcext:value-type="float">
+      <text:p>-44.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A8];360)" office:value-type="float" office:value="315.224212966982" calcext:value-type="float">
+      <text:p>315.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B8]*17.777778" office:value-type="float" office:value="5603.98607835172" calcext:value-type="float">
+      <text:p>5604</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A8]+[.D$2]" office:value-type="float" office:value="-32.7757870330182" calcext:value-type="float">
+      <text:p>-32.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D8];360)" office:value-type="float" office:value="327.224212966982" calcext:value-type="float">
+      <text:p>327.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E8]*17.777778" office:value-type="float" office:value="5817.31941435172" calcext:value-type="float">
+      <text:p>5817</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.936625" calcext:value-type="float">
+      <text:p>38.936625000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.298166667" calcext:value-type="float">
+      <text:p>-75.298166667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>green</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="25" calcext:value-type="float">
+      <text:p>25</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>1M <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Mispillion Inlet South Jetty Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G9]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G9]))*COS(RADIANS([.H9]-[.H$2]));SIN(RADIANS([.H9]-[.H$2]))*COS(RADIANS([.G9]))))" office:value-type="float" office:value="-44.6410601986382" calcext:value-type="float">
+      <text:p>-44.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A9];360)" office:value-type="float" office:value="315.358939801362" calcext:value-type="float">
+      <text:p>315.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B9]*17.777778" office:value-type="float" office:value="5606.38122210397" calcext:value-type="float">
+      <text:p>5606</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A9]+[.D$2]" office:value-type="float" office:value="-32.6410601986382" calcext:value-type="float">
+      <text:p>-32.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D9];360)" office:value-type="float" office:value="327.358939801362" calcext:value-type="float">
+      <text:p>327.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E9]*17.777778" office:value-type="float" office:value="5819.71455810397" calcext:value-type="float">
+      <text:p>5820</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.93717" calcext:value-type="float">
+      <text:p>38.937170000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.29795" calcext:value-type="float">
+      <text:p>-75.297950000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="25" calcext:value-type="float">
+      <text:p>25</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>2 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Mispillion Inlet North Jetty Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G10]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G10]))*COS(RADIANS([.H10]-[.H$2]));SIN(RADIANS([.H10]-[.H$2]))*COS(RADIANS([.G10]))))" office:value-type="float" office:value="-31.5182194276238" calcext:value-type="float">
+      <text:p>-31.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A10];360)" office:value-type="float" office:value="328.481780572376" calcext:value-type="float">
+      <text:p>328.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B10]*17.777778" office:value-type="float" office:value="5839.67617206042" calcext:value-type="float">
+      <text:p>5840</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A10]+[.D$2]" office:value-type="float" office:value="-19.5182194276238" calcext:value-type="float">
+      <text:p>-19.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D10];360)" office:value-type="float" office:value="340.481780572376" calcext:value-type="float">
+      <text:p>340.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E10]*17.777778" office:value-type="float" office:value="6053.00950806042" calcext:value-type="float">
+      <text:p>6053</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.800505" calcext:value-type="float">
+      <text:p>38.800505000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.116656667" calcext:value-type="float">
+      <text:p>-75.116656667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>green</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="45" calcext:value-type="float">
+      <text:p>45</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>3 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Breakwater West End Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G11]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G11]))*COS(RADIANS([.H11]-[.H$2]));SIN(RADIANS([.H11]-[.H$2]))*COS(RADIANS([.G11]))))" office:value-type="float" office:value="-24.7710359744532" calcext:value-type="float">
+      <text:p>-24.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A11];360)" office:value-type="float" office:value="335.228964025547" calcext:value-type="float">
+      <text:p>335.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B11]*17.777778" office:value-type="float" office:value="5959.62610161616" calcext:value-type="float">
+      <text:p>5960</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A11]+[.D$2]" office:value-type="float" office:value="-12.7710359744532" calcext:value-type="float">
+      <text:p>-12.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D11];360)" office:value-type="float" office:value="347.228964025547" calcext:value-type="float">
+      <text:p>347.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E11]*17.777778" office:value-type="float" office:value="6172.95943761616" calcext:value-type="float">
+      <text:p>6173</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.9515" calcext:value-type="float">
+      <text:p>38.951500000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.203238333" calcext:value-type="float">
+      <text:p>-75.203238333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>yellow</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>B <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Big Stone Beach Tanker Anchorage Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G12]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G12]))*COS(RADIANS([.H12]-[.H$2]));SIN(RADIANS([.H12]-[.H$2]))*COS(RADIANS([.G12]))))" office:value-type="float" office:value="-18.0741652221124" calcext:value-type="float">
+      <text:p>-18.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A12];360)" office:value-type="float" office:value="341.925834777888" calcext:value-type="float">
+      <text:p>341.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B12]*17.777778" office:value-type="float" office:value="6078.68158314597" calcext:value-type="float">
+      <text:p>6079</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A12]+[.D$2]" office:value-type="float" office:value="-6.07416522211243" calcext:value-type="float">
+      <text:p>-6.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D12];360)" office:value-type="float" office:value="353.925834777888" calcext:value-type="float">
+      <text:p>353.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E12]*17.777778" office:value-type="float" office:value="6292.01491914596" calcext:value-type="float">
+      <text:p>6292</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.960938333" calcext:value-type="float">
+      <text:p>38.960938333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.178235" calcext:value-type="float">
+      <text:p>-75.178235000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>yellow</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>G <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Big Stone Beach Tanker Anchorage Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G13]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G13]))*COS(RADIANS([.H13]-[.H$2]));SIN(RADIANS([.H13]-[.H$2]))*COS(RADIANS([.G13]))))" office:value-type="float" office:value="-17.7481782442188" calcext:value-type="float">
+      <text:p>-17.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A13];360)" office:value-type="float" office:value="342.251821755781" calcext:value-type="float">
+      <text:p>342.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B13]*17.777778" office:value-type="float" office:value="6084.47690726985" calcext:value-type="float">
+      <text:p>6084</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A13]+[.D$2]" office:value-type="float" office:value="-5.74817824421878" calcext:value-type="float">
+      <text:p>-5.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D13];360)" office:value-type="float" office:value="354.251821755781" calcext:value-type="float">
+      <text:p>354.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E13]*17.777778" office:value-type="float" office:value="6297.81024326985" calcext:value-type="float">
+      <text:p>6298</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="39.182225" calcext:value-type="float">
+      <text:p>39.182225000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.268448333" calcext:value-type="float">
+      <text:p>-75.268448333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Iso</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="61" calcext:value-type="float">
+      <text:p>61</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Elbow of Cross Ledge Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G14]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G14]))*COS(RADIANS([.H14]-[.H$2]));SIN(RADIANS([.H14]-[.H$2]))*COS(RADIANS([.G14]))))" office:value-type="float" office:value="-13.3245378727024" calcext:value-type="float">
+      <text:p>-13.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A14];360)" office:value-type="float" office:value="346.675462127298" calcext:value-type="float">
+      <text:p>346.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B14]*17.777778" office:value-type="float" office:value="6163.11940374651" calcext:value-type="float">
+      <text:p>6163</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A14]+[.D$2]" office:value-type="float" office:value="-1.32453787270241" calcext:value-type="float">
+      <text:p>-1.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D14];360)" office:value-type="float" office:value="358.675462127298" calcext:value-type="float">
+      <text:p>358.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E14]*17.777778" office:value-type="float" office:value="6376.4527397465" calcext:value-type="float">
+      <text:p>6376</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="39.126648333" calcext:value-type="float">
+      <text:p>39.126648333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.208681667" calcext:value-type="float">
+      <text:p>-75.208681667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Oc</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="59" calcext:value-type="float">
+      <text:p>59</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Miah Maull Shoal Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G15]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G15]))*COS(RADIANS([.H15]-[.H$2]));SIN(RADIANS([.H15]-[.H$2]))*COS(RADIANS([.G15]))))" office:value-type="float" office:value="-13.0966997051752" calcext:value-type="float">
+      <text:p>-13.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A15];360)" office:value-type="float" office:value="346.903300294825" calcext:value-type="float">
+      <text:p>346.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B15]*17.777778" office:value-type="float" office:value="6167.16986010873" calcext:value-type="float">
+      <text:p>6167</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A15]+[.D$2]" office:value-type="float" office:value="-1.09669970517522" calcext:value-type="float">
+      <text:p>-1.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D15];360)" office:value-type="float" office:value="358.903300294825" calcext:value-type="float">
+      <text:p>358.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E15]*17.777778" office:value-type="float" office:value="6380.50319610873" calcext:value-type="float">
+      <text:p>6381</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.835731667" calcext:value-type="float">
+      <text:p>38.835731667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.119511667" calcext:value-type="float">
+      <text:p>-75.119511667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="22" calcext:value-type="float">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>W <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay West Icebreaker Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G16]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G16]))*COS(RADIANS([.H16]-[.H$2]));SIN(RADIANS([.H16]-[.H$2]))*COS(RADIANS([.G16]))))" office:value-type="float" office:value="-12.9325093496226" calcext:value-type="float">
+      <text:p>-12.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A16];360)" office:value-type="float" office:value="347.067490650377" calcext:value-type="float">
+      <text:p>347.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B16]*17.777778" office:value-type="float" office:value="6170.08879979949" calcext:value-type="float">
+      <text:p>6170</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A16]+[.D$2]" office:value-type="float" office:value="-0.932509349622622" calcext:value-type="float">
+      <text:p>-0.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D16];360)" office:value-type="float" office:value="359.067490650377" calcext:value-type="float">
+      <text:p>359.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E16]*17.777778" office:value-type="float" office:value="6383.42213579949" calcext:value-type="float">
+      <text:p>6383</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="39.04825" calcext:value-type="float">
+      <text:p>39.048250000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.182203333" calcext:value-type="float">
+      <text:p>-75.182203333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="9" calcext:value-type="float">
+      <text:p>9.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="59" calcext:value-type="float">
+      <text:p>59</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fourteen Foot Bank Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G17]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G17]))*COS(RADIANS([.H17]-[.H$2]));SIN(RADIANS([.H17]-[.H$2]))*COS(RADIANS([.G17]))))" office:value-type="float" office:value="-12.265472062286" calcext:value-type="float">
+      <text:p>-12.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A17];360)" office:value-type="float" office:value="347.734527937714" calcext:value-type="float">
+      <text:p>347.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B17]*17.777778" office:value-type="float" office:value="6181.94724061148" calcext:value-type="float">
+      <text:p>6182</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A17]+[.D$2]" office:value-type="float" office:value="-0.265472062285996" calcext:value-type="float">
+      <text:p>-0.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D17];360)" office:value-type="float" office:value="359.734527937714" calcext:value-type="float">
+      <text:p>359.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E17]*17.777778" office:value-type="float" office:value="6395.28057661148" calcext:value-type="float">
+      <text:p>6395</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.897335" calcext:value-type="float">
+      <text:p>38.897335000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.135736667" calcext:value-type="float">
+      <text:p>-75.135736667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>yellow</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5" calcext:value-type="float">
+      <text:p>2.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>A <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Big Stone Beach Tanker Anchorage Approach Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G18]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G18]))*COS(RADIANS([.H18]-[.H$2]));SIN(RADIANS([.H18]-[.H$2]))*COS(RADIANS([.G18]))))" office:value-type="float" office:value="-9.20259747248611" calcext:value-type="float">
+      <text:p>-9.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A18];360)" office:value-type="float" office:value="350.797402527514" calcext:value-type="float">
+      <text:p>350.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B18]*17.777778" office:value-type="float" office:value="6236.39834511078" calcext:value-type="float">
+      <text:p>6236</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A18]+[.D$2]" office:value-type="float" office:value="2.79740252751389" calcext:value-type="float">
+      <text:p>2.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D18];360)" office:value-type="float" office:value="2.79740252751389" calcext:value-type="float">
+      <text:p>2.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E18]*17.777778" office:value-type="float" office:value="49.7316011107809" calcext:value-type="float">
+      <text:p>50</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="39.035666667" calcext:value-type="float">
+      <text:p>39.035666667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.156626667" calcext:value-type="float">
+      <text:p>-75.156626667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>16 <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay Main Channel Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G19]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G19]))*COS(RADIANS([.H19]-[.H$2]));SIN(RADIANS([.H19]-[.H$2]))*COS(RADIANS([.G19]))))" office:value-type="float" office:value="-7.21895105520255" calcext:value-type="float">
+      <text:p>-7.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A19];360)" office:value-type="float" office:value="352.781048944797" calcext:value-type="float">
+      <text:p>352.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B19]*17.777778" office:value-type="float" office:value="6271.66317074774" calcext:value-type="float">
+      <text:p>6272</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A19]+[.D$2]" office:value-type="float" office:value="4.78104894479745" calcext:value-type="float">
+      <text:p>4.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D19];360)" office:value-type="float" office:value="4.78104894479745" calcext:value-type="float">
+      <text:p>4.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E19]*17.777778" office:value-type="float" office:value="84.9964267477433" calcext:value-type="float">
+      <text:p>85</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="39.005111667" calcext:value-type="float">
+      <text:p>39.005111667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.140211667" calcext:value-type="float">
+      <text:p>-75.140211667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5" calcext:value-type="float">
+      <text:p>2.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>14 <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay Main Channel Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G20]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G20]))*COS(RADIANS([.H20]-[.H$2]));SIN(RADIANS([.H20]-[.H$2]))*COS(RADIANS([.G20]))))" office:value-type="float" office:value="-5.5153871239085" calcext:value-type="float">
+      <text:p>-5.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A20];360)" office:value-type="float" office:value="354.484612876091" calcext:value-type="float">
+      <text:p>354.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B20]*17.777778" office:value-type="float" office:value="6301.9487521271" calcext:value-type="float">
+      <text:p>6302</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A20]+[.D$2]" office:value-type="float" office:value="6.4846128760915" calcext:value-type="float">
+      <text:p>6.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D20];360)" office:value-type="float" office:value="6.4846128760915" calcext:value-type="float">
+      <text:p>6.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E20]*17.777778" office:value-type="float" office:value="115.282008127096" calcext:value-type="float">
+      <text:p>115</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.83828" calcext:value-type="float">
+      <text:p>38.838280000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.11093" calcext:value-type="float">
+      <text:p>-75.110930000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Q </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15" calcext:value-type="float">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>2 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay East Icebreaker Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G21]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G21]))*COS(RADIANS([.H21]-[.H$2]));SIN(RADIANS([.H21]-[.H$2]))*COS(RADIANS([.G21]))))" office:value-type="float" office:value="-5.10031667557667" calcext:value-type="float">
+      <text:p>-5.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A21];360)" office:value-type="float" office:value="354.899683324423" calcext:value-type="float">
+      <text:p>354.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B21]*17.777778" office:value-type="float" office:value="6309.3277824119" calcext:value-type="float">
+      <text:p>6309</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A21]+[.D$2]" office:value-type="float" office:value="6.89968332442333" calcext:value-type="float">
+      <text:p>6.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D21];360)" office:value-type="float" office:value="6.89968332442333" calcext:value-type="float">
+      <text:p>6.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E21]*17.777778" office:value-type="float" office:value="122.6610384119" calcext:value-type="float">
+      <text:p>123</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.981166667" calcext:value-type="float">
+      <text:p>38.981166667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.126846667" calcext:value-type="float">
+      <text:p>-75.126846667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>12 <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay Main Channel Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G22]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G22]))*COS(RADIANS([.H22]-[.H$2]));SIN(RADIANS([.H22]-[.H$2]))*COS(RADIANS([.G22]))))" office:value-type="float" office:value="-1.96248231062982" calcext:value-type="float">
+      <text:p>-2.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A22];360)" office:value-type="float" office:value="358.03751768937" calcext:value-type="float">
+      <text:p>358.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B22]*17.777778" office:value-type="float" office:value="6365.1115051527" calcext:value-type="float">
+      <text:p>6365</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A22]+[.D$2]" office:value-type="float" office:value="10.0375176893702" calcext:value-type="float">
+      <text:p>10.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D22];360)" office:value-type="float" office:value="10.0375176893702" calcext:value-type="float">
+      <text:p>10.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E22]*17.777778" office:value-type="float" office:value="178.444761152696" calcext:value-type="float">
+      <text:p>178</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.98623" calcext:value-type="float">
+      <text:p>38.986230000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.11318" calcext:value-type="float">
+      <text:p>-75.113180000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60" calcext:value-type="float">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Brandywine Shoal Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G23]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G23]))*COS(RADIANS([.H23]-[.H$2]));SIN(RADIANS([.H23]-[.H$2]))*COS(RADIANS([.G23]))))" office:value-type="float" office:value="-1.35954374022724" calcext:value-type="float">
+      <text:p>-1.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A23];360)" office:value-type="float" office:value="358.640456259773" calcext:value-type="float">
+      <text:p>358.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B23]*17.777778" office:value-type="float" office:value="6375.83041320495" calcext:value-type="float">
+      <text:p>6376</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A23]+[.D$2]" office:value-type="float" office:value="10.6404562597728" calcext:value-type="float">
+      <text:p>10.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D23];360)" office:value-type="float" office:value="10.6404562597728" calcext:value-type="float">
+      <text:p>10.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E23]*17.777778" office:value-type="float" office:value="189.16366920495" calcext:value-type="float">
+      <text:p>189</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.832595" calcext:value-type="float">
+      <text:p>38.832595000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.105756667" calcext:value-type="float">
+      <text:p>-75.105756667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>green</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="40" calcext:value-type="float">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>1 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Harbor of Refuge North End Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G24]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G24]))*COS(RADIANS([.H24]-[.H$2]));SIN(RADIANS([.H24]-[.H$2]))*COS(RADIANS([.G24]))))" office:value-type="float" office:value="-0.151329344671077" calcext:value-type="float">
+      <text:p>-0.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A24];360)" office:value-type="float" office:value="359.848670655329" calcext:value-type="float">
+      <text:p>359.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B24]*17.777778" office:value-type="float" office:value="6397.30978050555" calcext:value-type="float">
+      <text:p>6397</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A24]+[.D$2]" office:value-type="float" office:value="11.8486706553289" calcext:value-type="float">
+      <text:p>11.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D24];360)" office:value-type="float" office:value="11.8486706553289" calcext:value-type="float">
+      <text:p>11.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E24]*17.777778" office:value-type="float" office:value="210.643036505552" calcext:value-type="float">
+      <text:p>211</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.940213333" calcext:value-type="float">
+      <text:p>38.940213333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.104828333" calcext:value-type="float">
+      <text:p>-75.104828333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>10 <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay Main Channel Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G25]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G25]))*COS(RADIANS([.H25]-[.H$2]));SIN(RADIANS([.H25]-[.H$2]))*COS(RADIANS([.G25]))))" office:value-type="float" office:value="1.33358705959974" calcext:value-type="float">
+      <text:p>1.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A25];360)" office:value-type="float" office:value="1.33358705959974" calcext:value-type="float">
+      <text:p>1.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B25]*17.777778" office:value-type="float" office:value="23.7082146892369" calcext:value-type="float">
+      <text:p>24</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A25]+[.D$2]" office:value-type="float" office:value="13.3335870595997" calcext:value-type="float">
+      <text:p>13.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D25];360)" office:value-type="float" office:value="13.3335870595997" calcext:value-type="float">
+      <text:p>13.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E25]*17.777778" office:value-type="float" office:value="237.041550689237" calcext:value-type="float">
+      <text:p>237</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.922511667" calcext:value-type="float">
+      <text:p>38.922511667</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.10018" calcext:value-type="float">
+      <text:p>-75.100180000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5" calcext:value-type="float">
+      <text:p>2.5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="23" calcext:value-type="float">
+      <text:p>23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Brown Shoal Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G26]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G26]))*COS(RADIANS([.H26]-[.H$2]));SIN(RADIANS([.H26]-[.H$2]))*COS(RADIANS([.G26]))))" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
+      <text:p>15.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A26];360)" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
+      <text:p>15.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B26]*17.777778" office:value-type="float" office:value="272.22800190804" calcext:value-type="float">
+      <text:p>272</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A26]+[.D$2]" office:value-type="float" office:value="27.3128249159169" calcext:value-type="float">
+      <text:p>27.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D26];360)" office:value-type="float" office:value="27.3128249159169" calcext:value-type="float">
+      <text:p>27.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E26]*17.777778" office:value-type="float" office:value="485.56133790804" calcext:value-type="float">
+      <text:p>486</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.79712" calcext:value-type="float">
+      <text:p>38.797120000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.099973333" calcext:value-type="float">
+      <text:p>-75.099973333</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
+      <text:p>none</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="61" calcext:value-type="float">
+      <text:p>61</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Breakwater East End Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G27]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G27]))*COS(RADIANS([.H27]-[.H$2]));SIN(RADIANS([.H27]-[.H$2]))*COS(RADIANS([.G27]))))" office:value-type="float" office:value="17.3494244943841" calcext:value-type="float">
+      <text:p>17.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A27];360)" office:value-type="float" office:value="17.3494244943841" calcext:value-type="float">
+      <text:p>17.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B27]*17.777778" office:value-type="float" office:value="308.434217088924" calcext:value-type="float">
+      <text:p>308</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A27]+[.D$2]" office:value-type="float" office:value="29.3494244943841" calcext:value-type="float">
+      <text:p>29.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D27];360)" office:value-type="float" office:value="29.3494244943841" calcext:value-type="float">
+      <text:p>29.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E27]*17.777778" office:value-type="float" office:value="521.767553088924" calcext:value-type="float">
+      <text:p>522</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.814508333" calcext:value-type="float">
+      <text:p>38.814508333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.09239" calcext:value-type="float">
+      <text:p>-75.092390000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="72" calcext:value-type="float">
+      <text:p>72</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="19" calcext:value-type="float">
+      <text:p>19</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Harbor of Refuge Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G28]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G28]))*COS(RADIANS([.H28]-[.H$2]));SIN(RADIANS([.H28]-[.H$2]))*COS(RADIANS([.G28]))))" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
+      <text:p>22.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A28];360)" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
+      <text:p>22.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B28]*17.777778" office:value-type="float" office:value="406.884739472558" calcext:value-type="float">
+      <text:p>407</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A28]+[.D$2]" office:value-type="float" office:value="34.8872663092405" calcext:value-type="float">
+      <text:p>34.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D28];360)" office:value-type="float" office:value="34.8872663092405" calcext:value-type="float">
+      <text:p>34.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E28]*17.777778" office:value-type="float" office:value="620.218075472558" calcext:value-type="float">
+      <text:p>620</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.908193333" calcext:value-type="float">
+      <text:p>38.908193333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.03735" calcext:value-type="float">
+      <text:p>-75.037350000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>2 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Cape May Canal West Entrance Approach Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G29]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G29]))*COS(RADIANS([.H29]-[.H$2]));SIN(RADIANS([.H29]-[.H$2]))*COS(RADIANS([.G29]))))" office:value-type="float" office:value="37.0525831878981" calcext:value-type="float">
+      <text:p>37.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A29];360)" office:value-type="float" office:value="37.0525831878981" calcext:value-type="float">
+      <text:p>37.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B29]*17.777778" office:value-type="float" office:value="658.712598240985" calcext:value-type="float">
+      <text:p>659</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A29]+[.D$2]" office:value-type="float" office:value="49.0525831878981" calcext:value-type="float">
+      <text:p>49.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D29];360)" office:value-type="float" office:value="49.0525831878981" calcext:value-type="float">
+      <text:p>49.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E29]*17.777778" office:value-type="float" office:value="872.045934240985" calcext:value-type="float">
+      <text:p>872</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.932995" calcext:value-type="float">
+      <text:p>38.932995000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-74.960383333" calcext:value-type="float">
+      <text:p>-74.960383333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>white</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15" calcext:value-type="float">
+      <text:p>15.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="165" calcext:value-type="float">
+      <text:p>165</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="22" calcext:value-type="float">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Cape May Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G30]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G30]))*COS(RADIANS([.H30]-[.H$2]));SIN(RADIANS([.H30]-[.H$2]))*COS(RADIANS([.G30]))))" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
+      <text:p>46.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A30];360)" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
+      <text:p>46.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B30]*17.777778" office:value-type="float" office:value="831.316696283161" calcext:value-type="float">
+      <text:p>831</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A30]+[.D$2]" office:value-type="float" office:value="58.7615635814083" calcext:value-type="float">
+      <text:p>58.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D30];360)" office:value-type="float" office:value="58.7615635814083" calcext:value-type="float">
+      <text:p>58.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E30]*17.777778" office:value-type="float" office:value="1044.65003228316" calcext:value-type="float">
+      <text:p>1045</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.794253333" calcext:value-type="float">
+      <text:p>38.794253333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.091405" calcext:value-type="float">
+      <text:p>-75.091405000</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
+      <text:p>none</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="4"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Entrance Speaking Station</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G31]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G31]))*COS(RADIANS([.H31]-[.H$2]));SIN(RADIANS([.H31]-[.H$2]))*COS(RADIANS([.G31]))))" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
+      <text:p>52.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.A31];360)" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
+      <text:p>52.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B31]*17.777778" office:value-type="float" office:value="930.209623729345" calcext:value-type="float">
+      <text:p>930</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A31]+[.D$2]" office:value-type="float" office:value="64.324290680722" calcext:value-type="float">
+      <text:p>64.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=MOD([.D31];360)" office:value-type="float" office:value="64.324290680722" calcext:value-type="float">
+      <text:p>64.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.E31]*17.777778" office:value-type="float" office:value="1143.54295972934" calcext:value-type="float">
+      <text:p>1144</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38.822488333" calcext:value-type="float">
+      <text:p>38.822488333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="-75.041633333" calcext:value-type="float">
+      <text:p>-75.041633333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Fl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>red</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5" calcext:value-type="float">
+      <text:p>2.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" calcext:value-type="string">
+      <text:p>8 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Delaware Bay Entrance Channel Lighted Buoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="49"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048544">
+     <table:table-cell table:number-columns-repeated="64"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="64"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+   <table:database-ranges>
+    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="Sheet1.A3:Sheet1.O31">
+     <table:sort>
+      <table:sort-by table:field-number="0" table:data-type="automatic"/>
+     </table:sort>
+    </table:database-range>
+   </table:database-ranges>
+  </office:spreadsheet>
+ </office:body>
+</office:document>
