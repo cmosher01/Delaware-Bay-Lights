@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+figure {
+    display: inline;
+    top: 100px;
+    position: absolute;
+    margin-block: 0;
+    margin-inline: 0;
+    width: 5px;
+    height: 5px;
+}
+
+figure figcaption {
+    position: relative;
+    top: 30px;
+    white-space: nowrap;
+    visibility: hidden;
+    color: #FFAA00;
+    background-color: #332200;
+    border: 1px solid #664400;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+figure:hover figcaption {
+    visibility: visible;
+}
+
+.light {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 2px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Fl  { from { opacity: 1.0; } 15%,85% { opacity: 0.2; } to { opacity: 1.0; } }
+@keyframes Q   { from { opacity: 1.0; } 15%,85% { opacity: 0.2; } to { opacity: 1.0; } }
+@keyframes Iso { from { opacity: 1.0; }     50% { opacity: 0.2; } to { opacity: 1.0; } }
+@keyframes Occ { from { opacity: 0.2; } 25%,50% { opacity: 1.0; } to { opacity: 0.2; } }

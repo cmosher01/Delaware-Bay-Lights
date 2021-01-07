@@ -19,11 +19,11 @@ public class DblGui {
     private void init() {
         this.events.set(Thread.currentThread());
 
-        try {
-            final DblFrame frame = DblFrame.create();
-        } catch (final Throwable e) {
-            e.printStackTrace();
-        }
+//        try {
+//            final DblFrame frame = DblFrame.create();
+//        } catch (final Throwable e) {
+//            e.printStackTrace();
+//        }
 //        DblMenuBar.create(frame);
     }
 
