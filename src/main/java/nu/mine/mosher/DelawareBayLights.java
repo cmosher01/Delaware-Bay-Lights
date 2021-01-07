@@ -1,21 +1,32 @@
+/*
+    Delaware Bay Lights
+
+    Copyright © 2021, Christopher Alan Mosher, Shelton, Connecticut, USA, <cmosher01@gmail.com>.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see https://www.gnu.org/licenses/ .
+*/
 package nu.mine.mosher;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
-import javax.xml.namespace.NamespaceContext;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
+import javax.xml.parsers.*;
+import javax.xml.xpath.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Objects;
+import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static nu.mine.mosher.OfficeNamespaceContext.ns;
 
@@ -102,20 +113,27 @@ public class DelawareBayLights {
             } else {
                 quot = "“"+quot+"”<br/>";
             }
+
+            var link = vals.get(cols.get("link"));
+            link = link.replace("&", "&amp;");
+
             outHtml.printf(
                 """
                 <figure id="label_%03d">
-                    <span class="light" id="light_%03d"/>
+                    <%s class="light" id="light_%03d" %s/>
                     <figcaption>
                         %s
                         %s<br/>
                         <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
+                        %s<br/>
                         magnetic bearing %3.1f° (%d mils)<br/>
                     </figcaption>
                 </figure>
                 """,
                 i+1,
+                link.isEmpty() ? "span" : "a",
                 i+1,
+                link.isEmpty() ? "" : "href=\""+link+"\"",
                 quot,
                 vals.get(cols.get("name")),
                 vals.get(cols.get("style")),
@@ -123,25 +141,28 @@ public class DelawareBayLights {
                 pd(vals.get(cols.get("rate"))),
                 pd(vals.get(cols.get("height"))),
                 pint(vals.get(cols.get("visibility"))),
+                latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
                 pd(vals.get(cols.get("mag abs"))),
                 pint(vals.get(cols.get("mag mils")))
             );
 
             final var r = pd(vals.get(cols.get("rate")));
             final var bearing = pd(vals.get(cols.get("true bearing")))+90.0D;
-            final var y = bearing*20.0D;
+            final var y = bearing*30.0D;
+            final var randDelay = ThreadLocalRandom.current().nextInt(0, 4000);
 
             outCss.printf(
                 """
                 #label_%03d { left: %4.0fpx; }
-                #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; }
+                #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
                 """,
                 i+1,
                 y,
                 i+1,
                 vals.get(cols.get("style")),
                 vals.get(cols.get("color")),
-                r);
+                r,
+                randDelay);
         }
 
         outCss.flush();
@@ -154,6 +175,43 @@ public class DelawareBayLights {
 
 
         System.out.flush();
+    }
+
+    private static record DMS(
+        long deg,
+        long min,
+        double sec,
+        boolean neg
+    ) {
+        static DMS of(double d) {
+            var xn = d < 0.0D;
+            d = Math.abs(d);
+            var xd = Math.round(Math.rint(Math.floor(d)));
+            d -= xd;
+            d *= 60.0D;
+            var xm = Math.round(Math.rint(Math.floor(d)));
+            d -= xm;
+            d *= 60.0D;
+            return new DMS(xd,xm,d,xn);
+        }
+        String fmt(final boolean lat) {
+            final String dir;
+            final String lab;
+            if (lat) {
+                dir = this.neg ? "S" : "N";
+                lab = "latitude";
+            } else {
+                dir = this.neg ? "W" : "E";
+                lab = "longitude";
+            }
+            return String.format("%d° %d′ %2.3f″ %s %s", this.deg, this.min, this.sec, dir, lab);
+        }
+    }
+
+    private static String latlon(double latitude, double longitude) {
+        var lat = DMS.of(latitude);
+        var lon = DMS.of(longitude);
+        return lat.fmt(true)+", "+lon.fmt(false);
     }
 
     private static long pint(final String s) {
@@ -183,31 +241,8 @@ public class DelawareBayLights {
 
     private static DocumentBuilderFactory factory() {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-
         factory.setValidating(false);
-//        factory.setFeature("http://apache.org/xml/features/validation/schema", false);
-
         factory.setNamespaceAware(true);
-//        factory.setExpandEntityReferences(true);
-//        factory.setCoalescing(true);
-//        factory.setIgnoringElementContentWhitespace(true);
-//        factory.setIgnoringComments(true);
-//
-//        factory.setFeature("http://apache.org/xml/features/honour-all-schemaLocations", true);
-//        factory.setFeature("http://apache.org/xml/features/warn-on-duplicate-entitydef", true);
-//        factory.setFeature("http://apache.org/xml/features/standard-uri-conformant", true);
-//        factory.setFeature("http://apache.org/xml/features/xinclude", true);
-//        factory.setFeature("http://apache.org/xml/features/validate-annotations", true);
-//        factory.setFeature("http://apache.org/xml/features/validation/schema-full-checking", true);
-//        factory.setFeature("http://apache.org/xml/features/validation/warn-on-duplicate-attdef", true);
-//        factory.setFeature("http://apache.org/xml/features/validation/warn-on-undeclared-elemdef", true);
-//        factory.setFeature("http://apache.org/xml/features/dom/defer-node-expansion", false);
-
         return factory;
     }
-
-//    public static void main(final String... args) throws InvocationTargetException, InterruptedException {
-//        final DblGui gui = DblGui.create();
-//        gui.waitForEventThread();
-//    }
 }

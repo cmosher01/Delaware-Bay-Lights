@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-06T21:02:39.463331794</dc:date><meta:editing-duration>P1DT3H6M48S</meta:editing-duration><meta:editing-cycles>19</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="461" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-07T15:45:24.033226920</dc:date><meta:editing-duration>P1DT4H27M24S</meta:editing-duration><meta:editing-cycles>23</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="476" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">30432</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">43075</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">13998</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">9</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">15</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">30</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">10</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">65</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1852</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1713</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">65</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
      <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
@@ -71,6 +71,15 @@
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
    <config:config-item config:name="PrinterName" config:type="string"/>
    <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
    <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
@@ -97,7 +106,9 @@
  </office:settings>
  <office:scripts>
   <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
   </office:script>
  </office:scripts>
  <office:font-face-decls>
@@ -254,6 +265,9 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="4.102in"/>
   </style:style>
   <style:style style:name="co16" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.978in"/>
+  </style:style>
+  <style:style style:name="co17" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -363,7 +377,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-06">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="17:24:27.691632417">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-07">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="17:24:27.691632417">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -392,7 +406,8 @@
     <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co14" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co15" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co16" table:number-columns-repeated="49" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co16" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co17" table:number-columns-repeated="48" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>true bearing</text:p>
@@ -439,7 +454,10 @@
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>name</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce26" table:number-columns-repeated="49"/>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>link</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce19" office:value-type="float" office:value="0" calcext:value-type="float">
@@ -575,7 +593,10 @@
      <table:table-cell table:formula="of:=&quot;Roosevelt Inlet Jetty Light&quot;" office:value-type="string" office:string-value="Roosevelt Inlet Jetty Light" calcext:value-type="string">
       <text:p>Roosevelt Inlet Jetty Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.yelp.com/biz_photos/roosevelt-inlet-lewes&quot;" office:value-type="string" office:string-value="https://www.yelp.com/biz_photos/roosevelt-inlet-lewes" calcext:value-type="string">
+      <text:p>https://www.yelp.com/biz_photos/roosevelt-inlet-lewes</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G5]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G5]))*COS(RADIANS([.H5]-[.H$2]));SIN(RADIANS([.H5]-[.H$2]))*COS(RADIANS([.G5]))))" office:value-type="float" office:value="-76.3024856238708" calcext:value-type="float">
@@ -623,7 +644,10 @@
      <table:table-cell table:formula="of:=&quot;Roosevelt Inlet Jetty Light&quot;" office:value-type="string" office:string-value="Roosevelt Inlet Jetty Light" calcext:value-type="string">
       <text:p>Roosevelt Inlet Jetty Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.yelp.com/biz_photos/roosevelt-inlet-lewes&quot;" office:value-type="string" office:string-value="https://www.yelp.com/biz_photos/roosevelt-inlet-lewes" calcext:value-type="string">
+      <text:p>https://www.yelp.com/biz_photos/roosevelt-inlet-lewes</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G6]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G6]))*COS(RADIANS([.H6]-[.H$2]));SIN(RADIANS([.H6]-[.H$2]))*COS(RADIANS([.G6]))))" office:value-type="float" office:value="-74.6676725451642" calcext:value-type="float">
@@ -671,7 +695,10 @@
      <table:table-cell table:formula="of:=&quot;Lewes Breakwater Front Light&quot;" office:value-type="string" office:string-value="Lewes Breakwater Front Light" calcext:value-type="string">
       <text:p>Lewes Breakwater Front Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.tripadvisor.com/LocationPhotoDirectLink-g34028-d1640435-i101517389-Lewes_Beach-Lewes_Delaware.html&quot;" office:value-type="string" office:string-value="https://www.tripadvisor.com/LocationPhotoDirectLink-g34028-d1640435-i101517389-Lewes_Beach-Lewes_Delaware.html" calcext:value-type="string">
+      <text:p>https://www.tripadvisor.com/LocationPhotoDirectLink-g34028-d1640435-i101517389-Lewes_Beach-Lewes_Delaware.html</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G7]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G7]))*COS(RADIANS([.H7]-[.H$2]));SIN(RADIANS([.H7]-[.H$2]))*COS(RADIANS([.G7]))))" office:value-type="float" office:value="-61.1455141597097" calcext:value-type="float">
@@ -767,7 +794,10 @@
      <table:table-cell table:formula="of:=&quot;Mispillion Inlet South Jetty Light&quot;" office:value-type="string" office:string-value="Mispillion Inlet South Jetty Light" calcext:value-type="string">
       <text:p>Mispillion Inlet South Jetty Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/&quot;" office:value-type="string" office:string-value="https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/" calcext:value-type="string">
+      <text:p>https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G9]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G9]))*COS(RADIANS([.H9]-[.H$2]));SIN(RADIANS([.H9]-[.H$2]))*COS(RADIANS([.G9]))))" office:value-type="float" office:value="-44.6410601986382" calcext:value-type="float">
@@ -815,7 +845,10 @@
      <table:table-cell table:formula="of:=&quot;Mispillion Inlet North Jetty Light&quot;" office:value-type="string" office:string-value="Mispillion Inlet North Jetty Light" calcext:value-type="string">
       <text:p>Mispillion Inlet North Jetty Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/&quot;" office:value-type="string" office:string-value="https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/" calcext:value-type="string">
+      <text:p>https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G10]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G10]))*COS(RADIANS([.H10]-[.H$2]));SIN(RADIANS([.H10]-[.H$2]))*COS(RADIANS([.G10]))))" office:value-type="float" office:value="-31.5182194276238" calcext:value-type="float">
@@ -863,7 +896,10 @@
      <table:table-cell table:formula="of:=&quot;Delaware Breakwater West End Light&quot;" office:value-type="string" office:string-value="Delaware Breakwater West End Light" calcext:value-type="string">
       <text:p>Delaware Breakwater West End Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;http://listoflights.org/images/leuchtfeuer/gross/J12812.jpg&quot;" office:value-type="string" office:string-value="http://listoflights.org/images/leuchtfeuer/gross/J12812.jpg" calcext:value-type="string">
+      <text:p>http://listoflights.org/images/leuchtfeuer/gross/J12812.jpg</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G11]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G11]))*COS(RADIANS([.H11]-[.H$2]));SIN(RADIANS([.H11]-[.H$2]))*COS(RADIANS([.G11]))))" office:value-type="float" office:value="-24.7710359744532" calcext:value-type="float">
@@ -1007,7 +1043,10 @@
      <table:table-cell table:formula="of:=&quot;Elbow of Cross Ledge Light&quot;" office:value-type="string" office:string-value="Elbow of Cross Ledge Light" calcext:value-type="string">
       <text:p>Elbow of Cross Ledge Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://en.wikipedia.org/wiki/Elbow_of_Cross_Ledge_Light&quot;" office:value-type="string" office:string-value="https://en.wikipedia.org/wiki/Elbow_of_Cross_Ledge_Light" calcext:value-type="string">
+      <text:p>https://en.wikipedia.org/wiki/Elbow_of_Cross_Ledge_Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G14]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G14]))*COS(RADIANS([.H14]-[.H$2]));SIN(RADIANS([.H14]-[.H$2]))*COS(RADIANS([.G14]))))" office:value-type="float" office:value="-13.3245378727024" calcext:value-type="float">
@@ -1055,7 +1094,10 @@
      <table:table-cell table:formula="of:=&quot;Miah Maull Shoal Light&quot;" office:value-type="string" office:string-value="Miah Maull Shoal Light" calcext:value-type="string">
       <text:p>Miah Maull Shoal Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://en.wikipedia.org/wiki/Miah_Maull_Shoal_Light&quot;" office:value-type="string" office:string-value="https://en.wikipedia.org/wiki/Miah_Maull_Shoal_Light" calcext:value-type="string">
+      <text:p>https://en.wikipedia.org/wiki/Miah_Maull_Shoal_Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G15]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G15]))*COS(RADIANS([.H15]-[.H$2]));SIN(RADIANS([.H15]-[.H$2]))*COS(RADIANS([.G15]))))" office:value-type="float" office:value="-13.0966997051752" calcext:value-type="float">
@@ -1151,7 +1193,10 @@
      <table:table-cell table:formula="of:=&quot;Fourteen Foot Bank Light&quot;" office:value-type="string" office:string-value="Fourteen Foot Bank Light" calcext:value-type="string">
       <text:p>Fourteen Foot Bank Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://en.wikipedia.org/wiki/Fourteen_Foot_Bank_Light&quot;" office:value-type="string" office:string-value="https://en.wikipedia.org/wiki/Fourteen_Foot_Bank_Light" calcext:value-type="string">
+      <text:p>https://en.wikipedia.org/wiki/Fourteen_Foot_Bank_Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G17]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G17]))*COS(RADIANS([.H17]-[.H$2]));SIN(RADIANS([.H17]-[.H$2]))*COS(RADIANS([.G17]))))" office:value-type="float" office:value="-12.265472062286" calcext:value-type="float">
@@ -1439,7 +1484,10 @@
      <table:table-cell table:formula="of:=&quot;Brandywine Shoal Light&quot;" office:value-type="string" office:string-value="Brandywine Shoal Light" calcext:value-type="string">
       <text:p>Brandywine Shoal Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://en.wikipedia.org/wiki/Brandywine_Shoal_Light&quot;" office:value-type="string" office:string-value="https://en.wikipedia.org/wiki/Brandywine_Shoal_Light" calcext:value-type="string">
+      <text:p>https://en.wikipedia.org/wiki/Brandywine_Shoal_Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G23]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G23]))*COS(RADIANS([.H23]-[.H$2]));SIN(RADIANS([.H23]-[.H$2]))*COS(RADIANS([.G23]))))" office:value-type="float" office:value="-1.35954374022724" calcext:value-type="float">
@@ -1583,7 +1631,10 @@
      <table:table-cell table:formula="of:=&quot;Brown Shoal Light&quot;" office:value-type="string" office:string-value="Brown Shoal Light" calcext:value-type="string">
       <text:p>Brown Shoal Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.lightphotos.net/photos/displayimage.php?album=203&amp;pid=36104&quot;" office:value-type="string" office:string-value="https://www.lightphotos.net/photos/displayimage.php?album=203&amp;pid=36104" calcext:value-type="string">
+      <text:p>https://www.lightphotos.net/photos/displayimage.php?album=203&amp;pid=36104</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G26]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G26]))*COS(RADIANS([.H26]-[.H$2]));SIN(RADIANS([.H26]-[.H$2]))*COS(RADIANS([.G26]))))" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
@@ -1679,7 +1730,10 @@
      <table:table-cell table:formula="of:=&quot;Harbor of Refuge Light&quot;" office:value-type="string" office:string-value="Harbor of Refuge Light" calcext:value-type="string">
       <text:p>Harbor of Refuge Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://en.wikipedia.org/wiki/Harbor_of_Refuge_Light&quot;" office:value-type="string" office:string-value="https://en.wikipedia.org/wiki/Harbor_of_Refuge_Light" calcext:value-type="string">
+      <text:p>https://en.wikipedia.org/wiki/Harbor_of_Refuge_Light</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G28]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G28]))*COS(RADIANS([.H28]-[.H$2]));SIN(RADIANS([.H28]-[.H$2]))*COS(RADIANS([.G28]))))" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
@@ -1775,7 +1829,10 @@
      <table:table-cell table:formula="of:=&quot;Cape May Light&quot;" office:value-type="string" office:string-value="Cape May Light" calcext:value-type="string">
       <text:p>Cape May Light</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://capemaymac.org/experience/cape-may-lighthouse/&quot;" office:value-type="string" office:string-value="https://capemaymac.org/experience/cape-may-lighthouse/" calcext:value-type="string">
+      <text:p>https://capemaymac.org/experience/cape-may-lighthouse/</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G30]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G30]))*COS(RADIANS([.H30]-[.H$2]));SIN(RADIANS([.H30]-[.H$2]))*COS(RADIANS([.G30]))))" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
@@ -1823,7 +1880,10 @@
      <table:table-cell table:formula="of:=&quot;Delaware Entrance Speaking Station&quot;" office:value-type="string" office:string-value="Delaware Entrance Speaking Station" calcext:value-type="string">
       <text:p>Delaware Entrance Speaking Station</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="49"/>
+     <table:table-cell table:formula="of:=&quot;https://www.alamy.com/stock-photo-the-pilot-radar-tower-at-cape-henlopen-state-park-in-delaware-usa-19517490.html&quot;" office:value-type="string" office:string-value="https://www.alamy.com/stock-photo-the-pilot-radar-tower-at-cape-henlopen-state-park-in-delaware-usa-19517490.html" calcext:value-type="string">
+      <text:p>https://www.alamy.com/stock-photo-the-pilot-radar-tower-at-cape-henlopen-state-park-in-delaware-usa-19517490.html</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G31]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G31]))*COS(RADIANS([.H31]-[.H$2]));SIN(RADIANS([.H31]-[.H$2]))*COS(RADIANS([.G31]))))" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
