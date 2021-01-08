@@ -6,7 +6,7 @@ body {
 
 figure {
     display: inline;
-    top: 100px;
+    top: 200px;
     position: absolute;
     margin-block: 0;
     margin-inline: 0;
@@ -43,4 +43,31 @@ figure:hover figcaption {
 @keyframes Fl  { from { opacity: 1.0; } 15%,85% { opacity: 0.2; } to { opacity: 1.0; } }
 @keyframes Q   { from { opacity: 1.0; } 15%,85% { opacity: 0.2; } to { opacity: 1.0; } }
 @keyframes Iso { from { opacity: 1.0; }     50% { opacity: 0.2; } to { opacity: 1.0; } }
-@keyframes Occ { from { opacity: 0.2; } 25%,50% { opacity: 1.0; } to { opacity: 0.2; } }
+@keyframes Oc  { from { opacity: 0.2; } 25%,50% { opacity: 1.0; } to { opacity: 0.2; } }
+
+.compass {
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    border-left: 1px solid #664400
+}
+
+.compass0 {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    border-left: 1px solid #664400
+}
+
+.compass1 {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    border-left: 1px solid #FFAA00
+}
+
+.compass_label {
+    color: #664400;
+    position: absolute;
+    top: 20px;
+}

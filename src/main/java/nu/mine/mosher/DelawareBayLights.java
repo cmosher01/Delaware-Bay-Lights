@@ -87,6 +87,36 @@ public class DelawareBayLights {
         final var fileCss = new File("docs/lights.css");
         final var outCss = new PrintWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileCss), StandardCharsets.UTF_8)));
 
+        {
+            for (int y = -90; y <= +90; ++y) {
+                var lab = "" + ((y + 360) % 360) + "°";
+                var cls = "compass";
+                if (((y+90) % 45) == 0) {
+                    cls = "compass1";
+                } else if (((y+90) % 5) == 0) {
+                    cls = "compass0";
+                } else {
+                    lab = "";
+                }
+                final var p = (y+90)*30;
+                outHtml.printf(
+                    """
+                    <span class="%s" id="comp_%03d"/>
+                    <span class="compass_label" id="compl_%03d">%s</span>
+                    """,
+                    cls,
+                    p,
+                    p,
+                    lab);
+                outCss.printf(
+                    """
+                    #comp_%03d { left: %dpx; }
+                    #compl_%03d { left: %dpx; }
+                    """,
+                    p,p,p,p+2);
+            }
+        }
+
         for (int i = 0; i < nlRows.getLength(); ++i) {
             final var nRow = nlRows.item(i);
             final var vals = new HashMap<Integer, String>();
@@ -126,6 +156,7 @@ public class DelawareBayLights {
                         %s<br/>
                         <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
                         %s<br/>
+                        true bearing %3.1f° (%d mils)<br/>
                         magnetic bearing %3.1f° (%d mils)<br/>
                     </figcaption>
                 </figure>
@@ -142,15 +173,25 @@ public class DelawareBayLights {
                 pd(vals.get(cols.get("height"))),
                 pint(vals.get(cols.get("visibility"))),
                 latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
+                pd(vals.get(cols.get("true abs"))),
+                pint(vals.get(cols.get("true mils"))),
                 pd(vals.get(cols.get("mag abs"))),
                 pint(vals.get(cols.get("mag mils")))
             );
 
             final var r = pd(vals.get(cols.get("rate")));
-            final var bearing = pd(vals.get(cols.get("true bearing")))+90.0D;
+            final var bearing = pd(vals.get(cols.get("true bearing")))+90.0D; // or mag?
             final var y = bearing*30.0D;
             final var randDelay = ThreadLocalRandom.current().nextInt(0, 4000);
 
+            var anim = vals.get(cols.get("style"));
+            if (anim.isBlank()) {
+                anim = "none";
+            }
+            var color = vals.get(cols.get("color"));
+            if (color.isBlank()) {
+                color = "darkblue";
+            }
             outCss.printf(
                 """
                 #label_%03d { left: %4.0fpx; }
@@ -159,8 +200,8 @@ public class DelawareBayLights {
                 i+1,
                 y,
                 i+1,
-                vals.get(cols.get("style")),
-                vals.get(cols.get("color")),
+                anim,
+                color,
                 r,
                 randDelay);
         }
@@ -195,23 +236,31 @@ public class DelawareBayLights {
             return new DMS(xd,xm,d,xn);
         }
         String fmt(final boolean lat) {
+            if (Double.isNaN(sec())) {
+                return "";
+            }
             final String dir;
             final String lab;
             if (lat) {
-                dir = this.neg ? "S" : "N";
+                dir = neg() ? "S" : "N";
                 lab = "latitude";
             } else {
-                dir = this.neg ? "W" : "E";
+                dir = neg() ? "W" : "E";
                 lab = "longitude";
             }
-            return String.format("%d° %d′ %2.3f″ %s %s", this.deg, this.min, this.sec, dir, lab);
+            return String.format("%d° %d′ %2.3f″ %s %s", deg(), min(), sec(), dir, lab);
         }
     }
 
     private static String latlon(double latitude, double longitude) {
         var lat = DMS.of(latitude);
         var lon = DMS.of(longitude);
-        return lat.fmt(true)+", "+lon.fmt(false);
+        final var flat = lat.fmt(true);
+        final var flon = lon.fmt(false);
+        if (flat.isBlank() || flon.isBlank()) {
+            return "[unknown location]";
+        }
+        return flat +", "+ flon;
     }
 
     private static long pint(final String s) {
