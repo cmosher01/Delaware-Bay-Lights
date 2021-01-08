@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-07T21:20:14.623177782</dc:date><meta:editing-duration>P1DT5H4M19S</meta:editing-duration><meta:editing-cycles>26</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="476" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-08T11:15:18.706153975</dc:date><meta:editing-duration>P1DT18H59M23S</meta:editing-duration><meta:editing-cycles>27</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="476" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -13,8 +13,8 @@
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">6</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">30</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -377,7 +377,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-07">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="20:43:17.829281794">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-08">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="20:43:17.829281794">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -469,14 +469,14 @@
      <table:table-cell table:formula="of:=[.B2]*17.777778" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A2]+12" office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12.0</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A2]+11.9" office:value-type="float" office:value="11.9" calcext:value-type="float">
+      <text:p>11.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D2];360)" office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12.0</text:p>
+     <table:table-cell table:formula="of:=MOD([.D2];360)" office:value-type="float" office:value="11.9" calcext:value-type="float">
+      <text:p>11.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E2]*17.777778" office:value-type="float" office:value="213.333336" calcext:value-type="float">
-      <text:p>213</text:p>
+     <table:table-cell table:formula="of:=[.E2]*17.777778" office:value-type="float" office:value="211.5555582" calcext:value-type="float">
+      <text:p>212</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce24" office:value-type="float" office:value="38.784802975" calcext:value-type="float">
       <text:p>38.784802975</text:p>
@@ -509,14 +509,14 @@
      <table:table-cell table:formula="of:=[.B3]*17.777778" office:value-type="float" office:value="4838.24140331672" calcext:value-type="float">
       <text:p>4838</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A3]+[.D$2]" office:value-type="float" office:value="-75.848924465323" calcext:value-type="float">
-      <text:p>-75.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A3]+[.D$2]" office:value-type="float" office:value="-75.948924465323" calcext:value-type="float">
+      <text:p>-75.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D3];360)" office:value-type="float" office:value="284.151075534677" calcext:value-type="float">
-      <text:p>284.2</text:p>
+     <table:table-cell table:formula="of:=MOD([.D3];360)" office:value-type="float" office:value="284.051075534677" calcext:value-type="float">
+      <text:p>284.1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E3]*17.777778" office:value-type="float" office:value="5051.57473931672" calcext:value-type="float">
-      <text:p>5052</text:p>
+     <table:table-cell table:formula="of:=[.E3]*17.777778" office:value-type="float" office:value="5049.79696151672" calcext:value-type="float">
+      <text:p>5050</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.785305" calcext:value-type="float">
       <text:p>38.785305000</text:p>
@@ -557,14 +557,14 @@
      <table:table-cell table:formula="of:=[.B4]*17.777778" office:value-type="float" office:value="5032.74903271325" calcext:value-type="float">
       <text:p>5033</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A4]+[.D$2]" office:value-type="float" office:value="-64.9078704485312" calcext:value-type="float">
-      <text:p>-64.9</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A4]+[.D$2]" office:value-type="float" office:value="-65.0078704485312" calcext:value-type="float">
+      <text:p>-65.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D4];360)" office:value-type="float" office:value="295.092129551469" calcext:value-type="float">
-      <text:p>295.1</text:p>
+     <table:table-cell table:formula="of:=MOD([.D4];360)" office:value-type="float" office:value="294.992129551469" calcext:value-type="float">
+      <text:p>295.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E4]*17.777778" office:value-type="float" office:value="5246.08236871325" calcext:value-type="float">
-      <text:p>5246</text:p>
+     <table:table-cell table:formula="of:=[.E4]*17.777778" office:value-type="float" office:value="5244.30459091325" calcext:value-type="float">
+      <text:p>5244</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.79414" calcext:value-type="float">
       <text:p>38.794140000</text:p>
@@ -608,14 +608,14 @@
      <table:table-cell table:formula="of:=[.B5]*17.777778" office:value-type="float" office:value="5043.51142973064" calcext:value-type="float">
       <text:p>5044</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A5]+[.D$2]" office:value-type="float" office:value="-64.3024856238708" calcext:value-type="float">
-      <text:p>-64.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A5]+[.D$2]" office:value-type="float" office:value="-64.4024856238708" calcext:value-type="float">
+      <text:p>-64.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D5];360)" office:value-type="float" office:value="295.697514376129" calcext:value-type="float">
-      <text:p>295.7</text:p>
+     <table:table-cell table:formula="of:=MOD([.D5];360)" office:value-type="float" office:value="295.597514376129" calcext:value-type="float">
+      <text:p>295.6</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E5]*17.777778" office:value-type="float" office:value="5256.84476573063" calcext:value-type="float">
-      <text:p>5257</text:p>
+     <table:table-cell table:formula="of:=[.E5]*17.777778" office:value-type="float" office:value="5255.06698793063" calcext:value-type="float">
+      <text:p>5255</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.794866667" calcext:value-type="float">
       <text:p>38.794866667</text:p>
@@ -659,14 +659,14 @@
      <table:table-cell table:formula="of:=[.B6]*17.777778" office:value-type="float" office:value="5072.57477371538" calcext:value-type="float">
       <text:p>5073</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A6]+[.D$2]" office:value-type="float" office:value="-62.6676725451642" calcext:value-type="float">
-      <text:p>-62.7</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A6]+[.D$2]" office:value-type="float" office:value="-62.7676725451642" calcext:value-type="float">
+      <text:p>-62.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D6];360)" office:value-type="float" office:value="297.332327454836" calcext:value-type="float">
-      <text:p>297.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D6];360)" office:value-type="float" office:value="297.232327454836" calcext:value-type="float">
+      <text:p>297.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E6]*17.777778" office:value-type="float" office:value="5285.90810971538" calcext:value-type="float">
-      <text:p>5286</text:p>
+     <table:table-cell table:formula="of:=[.E6]*17.777778" office:value-type="float" office:value="5284.13033191538" calcext:value-type="float">
+      <text:p>5284</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.787773333" calcext:value-type="float">
       <text:p>38.787773333</text:p>
@@ -710,14 +710,14 @@
      <table:table-cell table:formula="of:=[.B7]*17.777778" office:value-type="float" office:value="5312.96870357283" calcext:value-type="float">
       <text:p>5313</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A7]+[.D$2]" office:value-type="float" office:value="-49.1455141597097" calcext:value-type="float">
-      <text:p>-49.1</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A7]+[.D$2]" office:value-type="float" office:value="-49.2455141597097" calcext:value-type="float">
+      <text:p>-49.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D7];360)" office:value-type="float" office:value="310.85448584029" calcext:value-type="float">
-      <text:p>310.9</text:p>
+     <table:table-cell table:formula="of:=MOD([.D7];360)" office:value-type="float" office:value="310.75448584029" calcext:value-type="float">
+      <text:p>310.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E7]*17.777778" office:value-type="float" office:value="5526.30203957283" calcext:value-type="float">
-      <text:p>5526</text:p>
+     <table:table-cell table:formula="of:=[.E7]*17.777778" office:value-type="float" office:value="5524.52426177282" calcext:value-type="float">
+      <text:p>5525</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.796586667" calcext:value-type="float">
       <text:p>38.796586667</text:p>
@@ -758,14 +758,14 @@
      <table:table-cell table:formula="of:=[.B8]*17.777778" office:value-type="float" office:value="5603.98607835172" calcext:value-type="float">
       <text:p>5604</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A8]+[.D$2]" office:value-type="float" office:value="-32.7757870330182" calcext:value-type="float">
-      <text:p>-32.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A8]+[.D$2]" office:value-type="float" office:value="-32.8757870330182" calcext:value-type="float">
+      <text:p>-32.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D8];360)" office:value-type="float" office:value="327.224212966982" calcext:value-type="float">
-      <text:p>327.2</text:p>
+     <table:table-cell table:formula="of:=MOD([.D8];360)" office:value-type="float" office:value="327.124212966982" calcext:value-type="float">
+      <text:p>327.1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E8]*17.777778" office:value-type="float" office:value="5817.31941435172" calcext:value-type="float">
-      <text:p>5817</text:p>
+     <table:table-cell table:formula="of:=[.E8]*17.777778" office:value-type="float" office:value="5815.54163655173" calcext:value-type="float">
+      <text:p>5816</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.936625" calcext:value-type="float">
       <text:p>38.936625000</text:p>
@@ -809,14 +809,14 @@
      <table:table-cell table:formula="of:=[.B9]*17.777778" office:value-type="float" office:value="5606.38122210397" calcext:value-type="float">
       <text:p>5606</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A9]+[.D$2]" office:value-type="float" office:value="-32.6410601986382" calcext:value-type="float">
-      <text:p>-32.6</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A9]+[.D$2]" office:value-type="float" office:value="-32.7410601986382" calcext:value-type="float">
+      <text:p>-32.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D9];360)" office:value-type="float" office:value="327.358939801362" calcext:value-type="float">
-      <text:p>327.4</text:p>
+     <table:table-cell table:formula="of:=MOD([.D9];360)" office:value-type="float" office:value="327.258939801362" calcext:value-type="float">
+      <text:p>327.3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E9]*17.777778" office:value-type="float" office:value="5819.71455810397" calcext:value-type="float">
-      <text:p>5820</text:p>
+     <table:table-cell table:formula="of:=[.E9]*17.777778" office:value-type="float" office:value="5817.93678030398" calcext:value-type="float">
+      <text:p>5818</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.93717" calcext:value-type="float">
       <text:p>38.937170000</text:p>
@@ -860,14 +860,14 @@
      <table:table-cell table:formula="of:=[.B10]*17.777778" office:value-type="float" office:value="5839.67617206042" calcext:value-type="float">
       <text:p>5840</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A10]+[.D$2]" office:value-type="float" office:value="-19.5182194276238" calcext:value-type="float">
-      <text:p>-19.5</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A10]+[.D$2]" office:value-type="float" office:value="-19.6182194276238" calcext:value-type="float">
+      <text:p>-19.6</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D10];360)" office:value-type="float" office:value="340.481780572376" calcext:value-type="float">
-      <text:p>340.5</text:p>
+     <table:table-cell table:formula="of:=MOD([.D10];360)" office:value-type="float" office:value="340.381780572376" calcext:value-type="float">
+      <text:p>340.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E10]*17.777778" office:value-type="float" office:value="6053.00950806042" calcext:value-type="float">
-      <text:p>6053</text:p>
+     <table:table-cell table:formula="of:=[.E10]*17.777778" office:value-type="float" office:value="6051.23173026042" calcext:value-type="float">
+      <text:p>6051</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.800505" calcext:value-type="float">
       <text:p>38.800505000</text:p>
@@ -911,14 +911,14 @@
      <table:table-cell table:formula="of:=[.B11]*17.777778" office:value-type="float" office:value="5959.62610161616" calcext:value-type="float">
       <text:p>5960</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A11]+[.D$2]" office:value-type="float" office:value="-12.7710359744532" calcext:value-type="float">
-      <text:p>-12.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A11]+[.D$2]" office:value-type="float" office:value="-12.8710359744532" calcext:value-type="float">
+      <text:p>-12.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D11];360)" office:value-type="float" office:value="347.228964025547" calcext:value-type="float">
-      <text:p>347.2</text:p>
+     <table:table-cell table:formula="of:=MOD([.D11];360)" office:value-type="float" office:value="347.128964025547" calcext:value-type="float">
+      <text:p>347.1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E11]*17.777778" office:value-type="float" office:value="6172.95943761616" calcext:value-type="float">
-      <text:p>6173</text:p>
+     <table:table-cell table:formula="of:=[.E11]*17.777778" office:value-type="float" office:value="6171.18165981616" calcext:value-type="float">
+      <text:p>6171</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.9515" calcext:value-type="float">
       <text:p>38.951500000</text:p>
@@ -959,14 +959,14 @@
      <table:table-cell table:formula="of:=[.B12]*17.777778" office:value-type="float" office:value="6078.68158314597" calcext:value-type="float">
       <text:p>6079</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A12]+[.D$2]" office:value-type="float" office:value="-6.07416522211243" calcext:value-type="float">
-      <text:p>-6.1</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A12]+[.D$2]" office:value-type="float" office:value="-6.1741652221124" calcext:value-type="float">
+      <text:p>-6.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D12];360)" office:value-type="float" office:value="353.925834777888" calcext:value-type="float">
-      <text:p>353.9</text:p>
+     <table:table-cell table:formula="of:=MOD([.D12];360)" office:value-type="float" office:value="353.825834777888" calcext:value-type="float">
+      <text:p>353.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E12]*17.777778" office:value-type="float" office:value="6292.01491914596" calcext:value-type="float">
-      <text:p>6292</text:p>
+     <table:table-cell table:formula="of:=[.E12]*17.777778" office:value-type="float" office:value="6290.23714134597" calcext:value-type="float">
+      <text:p>6290</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.960938333" calcext:value-type="float">
       <text:p>38.960938333</text:p>
@@ -1007,14 +1007,14 @@
      <table:table-cell table:formula="of:=[.B13]*17.777778" office:value-type="float" office:value="6084.47690726985" calcext:value-type="float">
       <text:p>6084</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A13]+[.D$2]" office:value-type="float" office:value="-5.74817824421878" calcext:value-type="float">
-      <text:p>-5.7</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A13]+[.D$2]" office:value-type="float" office:value="-5.8481782442188" calcext:value-type="float">
+      <text:p>-5.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D13];360)" office:value-type="float" office:value="354.251821755781" calcext:value-type="float">
-      <text:p>354.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D13];360)" office:value-type="float" office:value="354.151821755781" calcext:value-type="float">
+      <text:p>354.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E13]*17.777778" office:value-type="float" office:value="6297.81024326985" calcext:value-type="float">
-      <text:p>6298</text:p>
+     <table:table-cell table:formula="of:=[.E13]*17.777778" office:value-type="float" office:value="6296.03246546985" calcext:value-type="float">
+      <text:p>6296</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.182225" calcext:value-type="float">
       <text:p>39.182225000</text:p>
@@ -1058,14 +1058,14 @@
      <table:table-cell table:formula="of:=[.B14]*17.777778" office:value-type="float" office:value="6163.11940374651" calcext:value-type="float">
       <text:p>6163</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A14]+[.D$2]" office:value-type="float" office:value="-1.32453787270241" calcext:value-type="float">
-      <text:p>-1.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A14]+[.D$2]" office:value-type="float" office:value="-1.4245378727024" calcext:value-type="float">
+      <text:p>-1.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D14];360)" office:value-type="float" office:value="358.675462127298" calcext:value-type="float">
-      <text:p>358.7</text:p>
+     <table:table-cell table:formula="of:=MOD([.D14];360)" office:value-type="float" office:value="358.575462127298" calcext:value-type="float">
+      <text:p>358.6</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E14]*17.777778" office:value-type="float" office:value="6376.4527397465" calcext:value-type="float">
-      <text:p>6376</text:p>
+     <table:table-cell table:formula="of:=[.E14]*17.777778" office:value-type="float" office:value="6374.67496194651" calcext:value-type="float">
+      <text:p>6375</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.126648333" calcext:value-type="float">
       <text:p>39.126648333</text:p>
@@ -1109,14 +1109,14 @@
      <table:table-cell table:formula="of:=[.B15]*17.777778" office:value-type="float" office:value="6167.16986010873" calcext:value-type="float">
       <text:p>6167</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A15]+[.D$2]" office:value-type="float" office:value="-1.09669970517522" calcext:value-type="float">
-      <text:p>-1.1</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A15]+[.D$2]" office:value-type="float" office:value="-1.1966997051752" calcext:value-type="float">
+      <text:p>-1.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D15];360)" office:value-type="float" office:value="358.903300294825" calcext:value-type="float">
-      <text:p>358.9</text:p>
+     <table:table-cell table:formula="of:=MOD([.D15];360)" office:value-type="float" office:value="358.803300294825" calcext:value-type="float">
+      <text:p>358.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E15]*17.777778" office:value-type="float" office:value="6380.50319610873" calcext:value-type="float">
-      <text:p>6381</text:p>
+     <table:table-cell table:formula="of:=[.E15]*17.777778" office:value-type="float" office:value="6378.72541830873" calcext:value-type="float">
+      <text:p>6379</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.835731667" calcext:value-type="float">
       <text:p>38.835731667</text:p>
@@ -1157,14 +1157,14 @@
      <table:table-cell table:formula="of:=[.B16]*17.777778" office:value-type="float" office:value="6170.08879979949" calcext:value-type="float">
       <text:p>6170</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A16]+[.D$2]" office:value-type="float" office:value="-0.932509349622622" calcext:value-type="float">
-      <text:p>-0.9</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A16]+[.D$2]" office:value-type="float" office:value="-1.0325093496226" calcext:value-type="float">
+      <text:p>-1.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D16];360)" office:value-type="float" office:value="359.067490650377" calcext:value-type="float">
-      <text:p>359.1</text:p>
+     <table:table-cell table:formula="of:=MOD([.D16];360)" office:value-type="float" office:value="358.967490650377" calcext:value-type="float">
+      <text:p>359.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E16]*17.777778" office:value-type="float" office:value="6383.42213579949" calcext:value-type="float">
-      <text:p>6383</text:p>
+     <table:table-cell table:formula="of:=[.E16]*17.777778" office:value-type="float" office:value="6381.64435799949" calcext:value-type="float">
+      <text:p>6382</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.04825" calcext:value-type="float">
       <text:p>39.048250000</text:p>
@@ -1208,14 +1208,14 @@
      <table:table-cell table:formula="of:=[.B17]*17.777778" office:value-type="float" office:value="6181.94724061148" calcext:value-type="float">
       <text:p>6182</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A17]+[.D$2]" office:value-type="float" office:value="-0.265472062285996" calcext:value-type="float">
-      <text:p>-0.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A17]+[.D$2]" office:value-type="float" office:value="-0.365472062285999" calcext:value-type="float">
+      <text:p>-0.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D17];360)" office:value-type="float" office:value="359.734527937714" calcext:value-type="float">
-      <text:p>359.7</text:p>
+     <table:table-cell table:formula="of:=MOD([.D17];360)" office:value-type="float" office:value="359.634527937714" calcext:value-type="float">
+      <text:p>359.6</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E17]*17.777778" office:value-type="float" office:value="6395.28057661148" calcext:value-type="float">
-      <text:p>6395</text:p>
+     <table:table-cell table:formula="of:=[.E17]*17.777778" office:value-type="float" office:value="6393.50279881148" calcext:value-type="float">
+      <text:p>6394</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.897335" calcext:value-type="float">
       <text:p>38.897335000</text:p>
@@ -1256,14 +1256,14 @@
      <table:table-cell table:formula="of:=[.B18]*17.777778" office:value-type="float" office:value="6236.39834511078" calcext:value-type="float">
       <text:p>6236</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A18]+[.D$2]" office:value-type="float" office:value="2.79740252751389" calcext:value-type="float">
-      <text:p>2.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A18]+[.D$2]" office:value-type="float" office:value="2.69740252751389" calcext:value-type="float">
+      <text:p>2.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D18];360)" office:value-type="float" office:value="2.79740252751389" calcext:value-type="float">
-      <text:p>2.8</text:p>
+     <table:table-cell table:formula="of:=MOD([.D18];360)" office:value-type="float" office:value="2.69740252751389" calcext:value-type="float">
+      <text:p>2.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E18]*17.777778" office:value-type="float" office:value="49.7316011107809" calcext:value-type="float">
-      <text:p>50</text:p>
+     <table:table-cell table:formula="of:=[.E18]*17.777778" office:value-type="float" office:value="47.9538233107808" calcext:value-type="float">
+      <text:p>48</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.035666667" calcext:value-type="float">
       <text:p>39.035666667</text:p>
@@ -1304,14 +1304,14 @@
      <table:table-cell table:formula="of:=[.B19]*17.777778" office:value-type="float" office:value="6271.66317074774" calcext:value-type="float">
       <text:p>6272</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A19]+[.D$2]" office:value-type="float" office:value="4.78104894479745" calcext:value-type="float">
-      <text:p>4.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A19]+[.D$2]" office:value-type="float" office:value="4.68104894479745" calcext:value-type="float">
+      <text:p>4.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D19];360)" office:value-type="float" office:value="4.78104894479745" calcext:value-type="float">
-      <text:p>4.8</text:p>
+     <table:table-cell table:formula="of:=MOD([.D19];360)" office:value-type="float" office:value="4.68104894479745" calcext:value-type="float">
+      <text:p>4.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E19]*17.777778" office:value-type="float" office:value="84.9964267477433" calcext:value-type="float">
-      <text:p>85</text:p>
+     <table:table-cell table:formula="of:=[.E19]*17.777778" office:value-type="float" office:value="83.2186489477433" calcext:value-type="float">
+      <text:p>83</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.005111667" calcext:value-type="float">
       <text:p>39.005111667</text:p>
@@ -1352,14 +1352,14 @@
      <table:table-cell table:formula="of:=[.B20]*17.777778" office:value-type="float" office:value="6301.9487521271" calcext:value-type="float">
       <text:p>6302</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A20]+[.D$2]" office:value-type="float" office:value="6.4846128760915" calcext:value-type="float">
-      <text:p>6.5</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A20]+[.D$2]" office:value-type="float" office:value="6.3846128760915" calcext:value-type="float">
+      <text:p>6.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D20];360)" office:value-type="float" office:value="6.4846128760915" calcext:value-type="float">
-      <text:p>6.5</text:p>
+     <table:table-cell table:formula="of:=MOD([.D20];360)" office:value-type="float" office:value="6.3846128760915" calcext:value-type="float">
+      <text:p>6.4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E20]*17.777778" office:value-type="float" office:value="115.282008127096" calcext:value-type="float">
-      <text:p>115</text:p>
+     <table:table-cell table:formula="of:=[.E20]*17.777778" office:value-type="float" office:value="113.504230327096" calcext:value-type="float">
+      <text:p>114</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.83828" calcext:value-type="float">
       <text:p>38.838280000</text:p>
@@ -1400,14 +1400,14 @@
      <table:table-cell table:formula="of:=[.B21]*17.777778" office:value-type="float" office:value="6309.3277824119" calcext:value-type="float">
       <text:p>6309</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A21]+[.D$2]" office:value-type="float" office:value="6.89968332442333" calcext:value-type="float">
-      <text:p>6.9</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A21]+[.D$2]" office:value-type="float" office:value="6.79968332442333" calcext:value-type="float">
+      <text:p>6.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D21];360)" office:value-type="float" office:value="6.89968332442333" calcext:value-type="float">
-      <text:p>6.9</text:p>
+     <table:table-cell table:formula="of:=MOD([.D21];360)" office:value-type="float" office:value="6.79968332442333" calcext:value-type="float">
+      <text:p>6.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E21]*17.777778" office:value-type="float" office:value="122.6610384119" calcext:value-type="float">
-      <text:p>123</text:p>
+     <table:table-cell table:formula="of:=[.E21]*17.777778" office:value-type="float" office:value="120.8832606119" calcext:value-type="float">
+      <text:p>121</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.981166667" calcext:value-type="float">
       <text:p>38.981166667</text:p>
@@ -1448,14 +1448,14 @@
      <table:table-cell table:formula="of:=[.B22]*17.777778" office:value-type="float" office:value="6365.1115051527" calcext:value-type="float">
       <text:p>6365</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A22]+[.D$2]" office:value-type="float" office:value="10.0375176893702" calcext:value-type="float">
-      <text:p>10.0</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A22]+[.D$2]" office:value-type="float" office:value="9.93751768937018" calcext:value-type="float">
+      <text:p>9.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D22];360)" office:value-type="float" office:value="10.0375176893702" calcext:value-type="float">
-      <text:p>10.0</text:p>
+     <table:table-cell table:formula="of:=MOD([.D22];360)" office:value-type="float" office:value="9.93751768937018" calcext:value-type="float">
+      <text:p>9.9</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E22]*17.777778" office:value-type="float" office:value="178.444761152696" calcext:value-type="float">
-      <text:p>178</text:p>
+     <table:table-cell table:formula="of:=[.E22]*17.777778" office:value-type="float" office:value="176.666983352696" calcext:value-type="float">
+      <text:p>177</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.98623" calcext:value-type="float">
       <text:p>38.986230000</text:p>
@@ -1499,14 +1499,14 @@
      <table:table-cell table:formula="of:=[.B23]*17.777778" office:value-type="float" office:value="6375.83041320495" calcext:value-type="float">
       <text:p>6376</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A23]+[.D$2]" office:value-type="float" office:value="10.6404562597728" calcext:value-type="float">
-      <text:p>10.6</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A23]+[.D$2]" office:value-type="float" office:value="10.5404562597728" calcext:value-type="float">
+      <text:p>10.5</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D23];360)" office:value-type="float" office:value="10.6404562597728" calcext:value-type="float">
-      <text:p>10.6</text:p>
+     <table:table-cell table:formula="of:=MOD([.D23];360)" office:value-type="float" office:value="10.5404562597728" calcext:value-type="float">
+      <text:p>10.5</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E23]*17.777778" office:value-type="float" office:value="189.16366920495" calcext:value-type="float">
-      <text:p>189</text:p>
+     <table:table-cell table:formula="of:=[.E23]*17.777778" office:value-type="float" office:value="187.38589140495" calcext:value-type="float">
+      <text:p>187</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.832595" calcext:value-type="float">
       <text:p>38.832595000</text:p>
@@ -1547,14 +1547,14 @@
      <table:table-cell table:formula="of:=[.B24]*17.777778" office:value-type="float" office:value="6397.30978050555" calcext:value-type="float">
       <text:p>6397</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A24]+[.D$2]" office:value-type="float" office:value="11.8486706553289" calcext:value-type="float">
-      <text:p>11.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A24]+[.D$2]" office:value-type="float" office:value="11.7486706553289" calcext:value-type="float">
+      <text:p>11.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D24];360)" office:value-type="float" office:value="11.8486706553289" calcext:value-type="float">
-      <text:p>11.8</text:p>
+     <table:table-cell table:formula="of:=MOD([.D24];360)" office:value-type="float" office:value="11.7486706553289" calcext:value-type="float">
+      <text:p>11.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E24]*17.777778" office:value-type="float" office:value="210.643036505552" calcext:value-type="float">
-      <text:p>211</text:p>
+     <table:table-cell table:formula="of:=[.E24]*17.777778" office:value-type="float" office:value="208.865258705552" calcext:value-type="float">
+      <text:p>209</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.940213333" calcext:value-type="float">
       <text:p>38.940213333</text:p>
@@ -1595,14 +1595,14 @@
      <table:table-cell table:formula="of:=[.B25]*17.777778" office:value-type="float" office:value="23.7082146892369" calcext:value-type="float">
       <text:p>24</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A25]+[.D$2]" office:value-type="float" office:value="13.3335870595997" calcext:value-type="float">
-      <text:p>13.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A25]+[.D$2]" office:value-type="float" office:value="13.2335870595997" calcext:value-type="float">
+      <text:p>13.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D25];360)" office:value-type="float" office:value="13.3335870595997" calcext:value-type="float">
-      <text:p>13.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D25];360)" office:value-type="float" office:value="13.2335870595997" calcext:value-type="float">
+      <text:p>13.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E25]*17.777778" office:value-type="float" office:value="237.041550689237" calcext:value-type="float">
-      <text:p>237</text:p>
+     <table:table-cell table:formula="of:=[.E25]*17.777778" office:value-type="float" office:value="235.263772889237" calcext:value-type="float">
+      <text:p>235</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.922511667" calcext:value-type="float">
       <text:p>38.922511667</text:p>
@@ -1646,14 +1646,14 @@
      <table:table-cell table:formula="of:=[.B26]*17.777778" office:value-type="float" office:value="272.22800190804" calcext:value-type="float">
       <text:p>272</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A26]+[.D$2]" office:value-type="float" office:value="27.3128249159169" calcext:value-type="float">
-      <text:p>27.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A26]+[.D$2]" office:value-type="float" office:value="27.2128249159169" calcext:value-type="float">
+      <text:p>27.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D26];360)" office:value-type="float" office:value="27.3128249159169" calcext:value-type="float">
-      <text:p>27.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D26];360)" office:value-type="float" office:value="27.2128249159169" calcext:value-type="float">
+      <text:p>27.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E26]*17.777778" office:value-type="float" office:value="485.56133790804" calcext:value-type="float">
-      <text:p>486</text:p>
+     <table:table-cell table:formula="of:=[.E26]*17.777778" office:value-type="float" office:value="483.783560108039" calcext:value-type="float">
+      <text:p>484</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.79712" calcext:value-type="float">
       <text:p>38.797120000</text:p>
@@ -1694,14 +1694,14 @@
      <table:table-cell table:formula="of:=[.B27]*17.777778" office:value-type="float" office:value="308.434217088924" calcext:value-type="float">
       <text:p>308</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A27]+[.D$2]" office:value-type="float" office:value="29.3494244943841" calcext:value-type="float">
-      <text:p>29.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A27]+[.D$2]" office:value-type="float" office:value="29.2494244943841" calcext:value-type="float">
+      <text:p>29.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D27];360)" office:value-type="float" office:value="29.3494244943841" calcext:value-type="float">
-      <text:p>29.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D27];360)" office:value-type="float" office:value="29.2494244943841" calcext:value-type="float">
+      <text:p>29.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E27]*17.777778" office:value-type="float" office:value="521.767553088924" calcext:value-type="float">
-      <text:p>522</text:p>
+     <table:table-cell table:formula="of:=[.E27]*17.777778" office:value-type="float" office:value="519.989775288923" calcext:value-type="float">
+      <text:p>520</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.814508333" calcext:value-type="float">
       <text:p>38.814508333</text:p>
@@ -1745,14 +1745,14 @@
      <table:table-cell table:formula="of:=[.B28]*17.777778" office:value-type="float" office:value="406.884739472558" calcext:value-type="float">
       <text:p>407</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A28]+[.D$2]" office:value-type="float" office:value="34.8872663092405" calcext:value-type="float">
-      <text:p>34.9</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A28]+[.D$2]" office:value-type="float" office:value="34.7872663092405" calcext:value-type="float">
+      <text:p>34.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D28];360)" office:value-type="float" office:value="34.8872663092405" calcext:value-type="float">
-      <text:p>34.9</text:p>
+     <table:table-cell table:formula="of:=MOD([.D28];360)" office:value-type="float" office:value="34.7872663092405" calcext:value-type="float">
+      <text:p>34.8</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E28]*17.777778" office:value-type="float" office:value="620.218075472558" calcext:value-type="float">
-      <text:p>620</text:p>
+     <table:table-cell table:formula="of:=[.E28]*17.777778" office:value-type="float" office:value="618.440297672557" calcext:value-type="float">
+      <text:p>618</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.908193333" calcext:value-type="float">
       <text:p>38.908193333</text:p>
@@ -1793,14 +1793,14 @@
      <table:table-cell table:formula="of:=[.B29]*17.777778" office:value-type="float" office:value="658.712598240985" calcext:value-type="float">
       <text:p>659</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A29]+[.D$2]" office:value-type="float" office:value="49.0525831878981" calcext:value-type="float">
-      <text:p>49.1</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A29]+[.D$2]" office:value-type="float" office:value="48.9525831878981" calcext:value-type="float">
+      <text:p>49.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D29];360)" office:value-type="float" office:value="49.0525831878981" calcext:value-type="float">
-      <text:p>49.1</text:p>
+     <table:table-cell table:formula="of:=MOD([.D29];360)" office:value-type="float" office:value="48.9525831878981" calcext:value-type="float">
+      <text:p>49.0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E29]*17.777778" office:value-type="float" office:value="872.045934240985" calcext:value-type="float">
-      <text:p>872</text:p>
+     <table:table-cell table:formula="of:=[.E29]*17.777778" office:value-type="float" office:value="870.268156440985" calcext:value-type="float">
+      <text:p>870</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.932995" calcext:value-type="float">
       <text:p>38.932995000</text:p>
@@ -1844,14 +1844,14 @@
      <table:table-cell table:formula="of:=[.B30]*17.777778" office:value-type="float" office:value="831.316696283161" calcext:value-type="float">
       <text:p>831</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A30]+[.D$2]" office:value-type="float" office:value="58.7615635814083" calcext:value-type="float">
-      <text:p>58.8</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A30]+[.D$2]" office:value-type="float" office:value="58.6615635814083" calcext:value-type="float">
+      <text:p>58.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D30];360)" office:value-type="float" office:value="58.7615635814083" calcext:value-type="float">
-      <text:p>58.8</text:p>
+     <table:table-cell table:formula="of:=MOD([.D30];360)" office:value-type="float" office:value="58.6615635814083" calcext:value-type="float">
+      <text:p>58.7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E30]*17.777778" office:value-type="float" office:value="1044.65003228316" calcext:value-type="float">
-      <text:p>1045</text:p>
+     <table:table-cell table:formula="of:=[.E30]*17.777778" office:value-type="float" office:value="1042.87225448316" calcext:value-type="float">
+      <text:p>1043</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.794253333" calcext:value-type="float">
       <text:p>38.794253333</text:p>
@@ -1895,14 +1895,14 @@
      <table:table-cell table:formula="of:=[.B31]*17.777778" office:value-type="float" office:value="930.209623729345" calcext:value-type="float">
       <text:p>930</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:formula="of:=[.A31]+[.D$2]" office:value-type="float" office:value="64.324290680722" calcext:value-type="float">
-      <text:p>64.3</text:p>
+     <table:table-cell table:style-name="ce19" table:formula="of:=[.A31]+[.D$2]" office:value-type="float" office:value="64.224290680722" calcext:value-type="float">
+      <text:p>64.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MOD([.D31];360)" office:value-type="float" office:value="64.324290680722" calcext:value-type="float">
-      <text:p>64.3</text:p>
+     <table:table-cell table:formula="of:=MOD([.D31];360)" office:value-type="float" office:value="64.224290680722" calcext:value-type="float">
+      <text:p>64.2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.E31]*17.777778" office:value-type="float" office:value="1143.54295972934" calcext:value-type="float">
-      <text:p>1144</text:p>
+     <table:table-cell table:formula="of:=[.E31]*17.777778" office:value-type="float" office:value="1141.76518192934" calcext:value-type="float">
+      <text:p>1142</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.822488333" calcext:value-type="float">
       <text:p>38.822488333</text:p>

@@ -157,8 +157,8 @@ public class DelawareBayLights {
                         %s<br/>
                         <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
                         %s<br/>
-                        true bearing %3.1f° (%d mils)<br/>
-                        magnetic bearing %3.1f° (%d mils)<br/>
+                        true azimuth %3.1f° (%d mils)<br/>
+                        magnetic azimuth %3.1f° (%d mils)<br/>
                     </figcaption>
                 </figure>
                 """,
