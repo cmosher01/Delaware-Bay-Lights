@@ -12,7 +12,7 @@ group = 'nu.mine.mosher'
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(15)
+        languageVersion = JavaLanguageVersion.of 15
         vendor = JvmVendorSpec.ADOPTOPENJDK
     }
 }
