@@ -69,7 +69,6 @@ public class DelawareBayLights {
             <?xml version="1.0" encoding="UTF-8"?>
             <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <meta http-equiv="Cache-Control" content="no-cache"/>
                 <link href="main.css" rel="stylesheet"/>
                 <link href="lights.css" rel="stylesheet"/>
             </head>
@@ -98,7 +97,7 @@ public class DelawareBayLights {
                 } else if (((y+90) % 5) == 0) {
                     cls = "compass0";
                 } else {
-                    lab = "";
+                    lab = " ";
                 }
                 final var p = (y+90)*30;
                 outHtml.printf(
@@ -156,12 +155,12 @@ public class DelawareBayLights {
                 <figure id="label_%03d">
                     <%s class="light" id="light_%03d" %s/>
                     <figcaption>
-                        <span class="lightinline" id="light_%03d"/><br/>
+                        <span class="lightinline" id="lightl_%03d"/><br/>
                         %s%s<br/>
                         <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
                         %s<br/>
-                        true azimuth %3.1f° (%d mils)<br/>
-                        magnetic azimuth %3.1f° (%d mils)<br/>
+                        %2.1f miles (%2.1f NMi)<br/>
+                        azimuth: &#x2605; %3.1f° (%d mils); &#x1F9ED; %3.1f° (%d mils)<br/>
                     </figcaption>
                 </figure>
                 """,
@@ -178,6 +177,8 @@ public class DelawareBayLights {
                 pd(vals.get(cols.get("height"))),
                 pint(vals.get(cols.get("visibility"))),
                 latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
+                pd(vals.get(cols.get("distance"))),
+                pd(vals.get(cols.get("distanceNMi"))),
                 pd(vals.get(cols.get("true abs"))),
                 pint(vals.get(cols.get("true mils"))),
                 pd(vals.get(cols.get("mag abs"))),
@@ -201,9 +202,15 @@ public class DelawareBayLights {
                 """
                 #label_%03d { left: %4.0fpx; }
                 #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
+                #lightl_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
                 """,
                 i+1,
                 y,
+                i+1,
+                anim,
+                color,
+                r,
+                randDelay,
                 i+1,
                 anim,
                 color,

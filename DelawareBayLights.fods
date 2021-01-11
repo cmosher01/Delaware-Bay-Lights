@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-08T11:15:18.706153975</dc:date><meta:editing-duration>P1DT18H59M23S</meta:editing-duration><meta:editing-cycles>27</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="476" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2021-01-03T19:28:41.090663754</meta:creation-date><dc:date>2021-01-11T14:33:27.214813647</dc:date><meta:editing-duration>P1DT19H1M3S</meta:editing-duration><meta:editing-cycles>28</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$MacOSX_X86_64 LibreOffice_project/dcf040e67528d9187c66b2379df5ea4407429775</meta:generator><meta:print-date>2021-01-04T20:42:28.259067913</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="538" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">43075</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">45720</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">13998</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">7</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -32,7 +32,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1713</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1576</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">65</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -238,36 +238,42 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="0.5929in"/>
   </style:style>
   <style:style style:name="co7" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.0339in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5307in"/>
   </style:style>
   <style:style style:name="co8" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.0819in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5102in"/>
   </style:style>
   <style:style style:name="co9" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.4201in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.0339in"/>
   </style:style>
   <style:style style:name="co10" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.5555in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.0819in"/>
   </style:style>
   <style:style style:name="co11" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.3819in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4201in"/>
   </style:style>
   <style:style style:name="co12" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.328in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.5555in"/>
   </style:style>
   <style:style style:name="co13" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.3728in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.3819in"/>
   </style:style>
   <style:style style:name="co14" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.4165in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.328in"/>
   </style:style>
   <style:style style:name="co15" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="4.102in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.3728in"/>
   </style:style>
   <style:style style:name="co16" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="4.978in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4165in"/>
   </style:style>
   <style:style style:name="co17" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.102in"/>
+  </style:style>
+  <style:style style:name="co18" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.978in"/>
+  </style:style>
+  <style:style style:name="co19" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -377,7 +383,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-08">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="20:43:17.829281794">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-01-11">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="13:40:45.333469237">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -397,17 +403,19 @@
     <table:table-column table:style-name="co4" table:default-cell-style-name="ce20"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="ce20"/>
     <table:table-column table:style-name="co6" table:default-cell-style-name="ce22"/>
-    <table:table-column table:style-name="co7" table:default-cell-style-name="ce25"/>
-    <table:table-column table:style-name="co8" table:default-cell-style-name="ce25"/>
-    <table:table-column table:style-name="co9" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co10" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co11" table:default-cell-style-name="ce30"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce20"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="ce25"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="ce25"/>
+    <table:table-column table:style-name="co11" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co12" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="ce30"/>
     <table:table-column table:style-name="co14" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co15" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co16" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co17" table:number-columns-repeated="48" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co17" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co18" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co19" table:number-columns-repeated="48" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>true bearing</text:p>
@@ -426,6 +434,12 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
       <text:p>mag mils</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>distance</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>distanceNMi</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
       <text:p>latitude</text:p>
@@ -460,7 +474,7 @@
      <table:table-cell table:style-name="ce26" table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce19" office:value-type="float" office:value="0" calcext:value-type="float">
+     <table:table-cell table:style-name="ce19" table:formula="of:=0" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A2];360)" office:value-type="float" office:value="0" calcext:value-type="float">
@@ -477,6 +491,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E2]*17.777778" office:value-type="float" office:value="211.5555582" calcext:value-type="float">
       <text:p>212</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=0" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G2]/1.15" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0.0</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce24" office:value-type="float" office:value="38.784802975" calcext:value-type="float">
       <text:p>38.784802975</text:p>
@@ -500,7 +520,7 @@
      <table:table-cell table:style-name="ce27" table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G3]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G3]))*COS(RADIANS([.H3]-[.H$2]));SIN(RADIANS([.H3]-[.H$2]))*COS(RADIANS([.G3]))))" office:value-type="float" office:value="-87.848924465323" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I3]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I3]))*COS(RADIANS([.J3]-[.J$2]));SIN(RADIANS([.J3]-[.J$2]))*COS(RADIANS([.I3]))))" office:value-type="float" office:value="-87.848924465323" calcext:value-type="float">
       <text:p>-87.8</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A3];360)" office:value-type="float" office:value="272.151075534677" calcext:value-type="float">
@@ -517,6 +537,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E3]*17.777778" office:value-type="float" office:value="5049.79696151672" calcext:value-type="float">
       <text:p>5050</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I3]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I3]))*COS(RADIANS([.J3])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="0.926428924954708" calcext:value-type="float">
+      <text:p>0.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G3]/1.15" office:value-type="float" office:value="0.805590369525833" calcext:value-type="float">
+      <text:p>0.8</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.785305" calcext:value-type="float">
       <text:p>38.785305000</text:p>
@@ -548,7 +574,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G4]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G4]))*COS(RADIANS([.H4]-[.H$2]));SIN(RADIANS([.H4]-[.H$2]))*COS(RADIANS([.G4]))))" office:value-type="float" office:value="-76.9078704485312" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I4]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I4]))*COS(RADIANS([.J4]-[.J$2]));SIN(RADIANS([.J4]-[.J$2]))*COS(RADIANS([.I4]))))" office:value-type="float" office:value="-76.9078704485312" calcext:value-type="float">
       <text:p>-76.9</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A4];360)" office:value-type="float" office:value="283.092129551469" calcext:value-type="float">
@@ -565,6 +591,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E4]*17.777778" office:value-type="float" office:value="5244.30459091325" calcext:value-type="float">
       <text:p>5244</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I4]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I4]))*COS(RADIANS([.J4])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="2.85143528724717" calcext:value-type="float">
+      <text:p>2.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G4]/1.15" office:value-type="float" office:value="2.47950894543232" calcext:value-type="float">
+      <text:p>2.5</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.79414" calcext:value-type="float">
       <text:p>38.794140000</text:p>
@@ -599,7 +631,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G5]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G5]))*COS(RADIANS([.H5]-[.H$2]));SIN(RADIANS([.H5]-[.H$2]))*COS(RADIANS([.G5]))))" office:value-type="float" office:value="-76.3024856238708" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I5]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I5]))*COS(RADIANS([.J5]-[.J$2]));SIN(RADIANS([.J5]-[.J$2]))*COS(RADIANS([.I5]))))" office:value-type="float" office:value="-76.3024856238708" calcext:value-type="float">
       <text:p>-76.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A5];360)" office:value-type="float" office:value="283.697514376129" calcext:value-type="float">
@@ -616,6 +648,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E5]*17.777778" office:value-type="float" office:value="5255.06698793063" calcext:value-type="float">
       <text:p>5255</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I5]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I5]))*COS(RADIANS([.J5])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="2.93988216477826" calcext:value-type="float">
+      <text:p>2.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G5]/1.15" office:value-type="float" office:value="2.55641927372023" calcext:value-type="float">
+      <text:p>2.6</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.794866667" calcext:value-type="float">
       <text:p>38.794866667</text:p>
@@ -650,7 +688,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G6]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G6]))*COS(RADIANS([.H6]-[.H$2]));SIN(RADIANS([.H6]-[.H$2]))*COS(RADIANS([.G6]))))" office:value-type="float" office:value="-74.6676725451642" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I6]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I6]))*COS(RADIANS([.J6]-[.J$2]));SIN(RADIANS([.J6]-[.J$2]))*COS(RADIANS([.I6]))))" office:value-type="float" office:value="-74.6676725451642" calcext:value-type="float">
       <text:p>-74.7</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A6];360)" office:value-type="float" office:value="285.332327454836" calcext:value-type="float">
@@ -667,6 +705,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E6]*17.777778" office:value-type="float" office:value="5284.13033191538" calcext:value-type="float">
       <text:p>5284</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I6]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I6]))*COS(RADIANS([.J6])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="0.776371170362981" calcext:value-type="float">
+      <text:p>0.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G6]/1.15" office:value-type="float" office:value="0.675105365533027" calcext:value-type="float">
+      <text:p>0.7</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.787773333" calcext:value-type="float">
       <text:p>38.787773333</text:p>
@@ -701,7 +745,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G7]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G7]))*COS(RADIANS([.H7]-[.H$2]));SIN(RADIANS([.H7]-[.H$2]))*COS(RADIANS([.G7]))))" office:value-type="float" office:value="-61.1455141597097" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I7]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I7]))*COS(RADIANS([.J7]-[.J$2]));SIN(RADIANS([.J7]-[.J$2]))*COS(RADIANS([.I7]))))" office:value-type="float" office:value="-61.1455141597097" calcext:value-type="float">
       <text:p>-61.1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A7];360)" office:value-type="float" office:value="298.85448584029" calcext:value-type="float">
@@ -718,6 +762,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E7]*17.777778" office:value-type="float" office:value="5524.52426177282" calcext:value-type="float">
       <text:p>5525</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I7]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I7]))*COS(RADIANS([.J7])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="1.68754049033161" calcext:value-type="float">
+      <text:p>1.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G7]/1.15" office:value-type="float" office:value="1.46742651333183" calcext:value-type="float">
+      <text:p>1.5</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.796586667" calcext:value-type="float">
       <text:p>38.796586667</text:p>
@@ -749,7 +799,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G8]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G8]))*COS(RADIANS([.H8]-[.H$2]));SIN(RADIANS([.H8]-[.H$2]))*COS(RADIANS([.G8]))))" office:value-type="float" office:value="-44.7757870330182" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I8]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I8]))*COS(RADIANS([.J8]-[.J$2]));SIN(RADIANS([.J8]-[.J$2]))*COS(RADIANS([.I8]))))" office:value-type="float" office:value="-44.7757870330182" calcext:value-type="float">
       <text:p>-44.8</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A8];360)" office:value-type="float" office:value="315.224212966982" calcext:value-type="float">
@@ -766,6 +816,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E8]*17.777778" office:value-type="float" office:value="5815.54163655173" calcext:value-type="float">
       <text:p>5816</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I8]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I8]))*COS(RADIANS([.J8])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="14.7925913063958" calcext:value-type="float">
+      <text:p>14.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G8]/1.15" office:value-type="float" office:value="12.8631228751268" calcext:value-type="float">
+      <text:p>12.9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.936625" calcext:value-type="float">
       <text:p>38.936625000</text:p>
@@ -800,7 +856,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G9]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G9]))*COS(RADIANS([.H9]-[.H$2]));SIN(RADIANS([.H9]-[.H$2]))*COS(RADIANS([.G9]))))" office:value-type="float" office:value="-44.6410601986382" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I9]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I9]))*COS(RADIANS([.J9]-[.J$2]));SIN(RADIANS([.J9]-[.J$2]))*COS(RADIANS([.I9]))))" office:value-type="float" office:value="-44.6410601986382" calcext:value-type="float">
       <text:p>-44.6</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A9];360)" office:value-type="float" office:value="315.358939801362" calcext:value-type="float">
@@ -817,6 +873,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E9]*17.777778" office:value-type="float" office:value="5817.93678030398" calcext:value-type="float">
       <text:p>5818</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I9]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I9]))*COS(RADIANS([.J9])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="14.811087271984" calcext:value-type="float">
+      <text:p>14.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G9]/1.15" office:value-type="float" office:value="12.8792063234643" calcext:value-type="float">
+      <text:p>12.9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.93717" calcext:value-type="float">
       <text:p>38.937170000</text:p>
@@ -851,7 +913,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G10]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G10]))*COS(RADIANS([.H10]-[.H$2]));SIN(RADIANS([.H10]-[.H$2]))*COS(RADIANS([.G10]))))" office:value-type="float" office:value="-31.5182194276238" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I10]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I10]))*COS(RADIANS([.J10]-[.J$2]));SIN(RADIANS([.J10]-[.J$2]))*COS(RADIANS([.I10]))))" office:value-type="float" office:value="-31.5182194276238" calcext:value-type="float">
       <text:p>-31.5</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A10];360)" office:value-type="float" office:value="328.481780572376" calcext:value-type="float">
@@ -868,6 +930,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E10]*17.777778" office:value-type="float" office:value="6051.23173026042" calcext:value-type="float">
       <text:p>6051</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I10]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I10]))*COS(RADIANS([.J10])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="1.27268957335093" calcext:value-type="float">
+      <text:p>1.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G10]/1.15" office:value-type="float" office:value="1.10668658552255" calcext:value-type="float">
+      <text:p>1.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.800505" calcext:value-type="float">
       <text:p>38.800505000</text:p>
@@ -902,7 +970,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G11]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G11]))*COS(RADIANS([.H11]-[.H$2]));SIN(RADIANS([.H11]-[.H$2]))*COS(RADIANS([.G11]))))" office:value-type="float" office:value="-24.7710359744532" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I11]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I11]))*COS(RADIANS([.J11]-[.J$2]));SIN(RADIANS([.J11]-[.J$2]))*COS(RADIANS([.I11]))))" office:value-type="float" office:value="-24.7710359744532" calcext:value-type="float">
       <text:p>-24.8</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A11];360)" office:value-type="float" office:value="335.228964025547" calcext:value-type="float">
@@ -919,6 +987,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E11]*17.777778" office:value-type="float" office:value="6171.18165981616" calcext:value-type="float">
       <text:p>6171</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I11]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I11]))*COS(RADIANS([.J11])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="12.6877775979397" calcext:value-type="float">
+      <text:p>12.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G11]/1.15" office:value-type="float" office:value="11.032850085165" calcext:value-type="float">
+      <text:p>11.0</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.9515" calcext:value-type="float">
       <text:p>38.951500000</text:p>
@@ -950,7 +1024,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G12]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G12]))*COS(RADIANS([.H12]-[.H$2]));SIN(RADIANS([.H12]-[.H$2]))*COS(RADIANS([.G12]))))" office:value-type="float" office:value="-18.0741652221124" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I12]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I12]))*COS(RADIANS([.J12]-[.J$2]));SIN(RADIANS([.J12]-[.J$2]))*COS(RADIANS([.I12]))))" office:value-type="float" office:value="-18.0741652221124" calcext:value-type="float">
       <text:p>-18.1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A12];360)" office:value-type="float" office:value="341.925834777888" calcext:value-type="float">
@@ -967,6 +1041,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E12]*17.777778" office:value-type="float" office:value="6290.23714134597" calcext:value-type="float">
       <text:p>6290</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I12]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I12]))*COS(RADIANS([.J12])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="12.8029661682443" calcext:value-type="float">
+      <text:p>12.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G12]/1.15" office:value-type="float" office:value="11.1330140593429" calcext:value-type="float">
+      <text:p>11.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.960938333" calcext:value-type="float">
       <text:p>38.960938333</text:p>
@@ -998,7 +1078,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G13]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G13]))*COS(RADIANS([.H13]-[.H$2]));SIN(RADIANS([.H13]-[.H$2]))*COS(RADIANS([.G13]))))" office:value-type="float" office:value="-17.7481782442188" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I13]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I13]))*COS(RADIANS([.J13]-[.J$2]));SIN(RADIANS([.J13]-[.J$2]))*COS(RADIANS([.I13]))))" office:value-type="float" office:value="-17.7481782442188" calcext:value-type="float">
       <text:p>-17.7</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A13];360)" office:value-type="float" office:value="342.251821755781" calcext:value-type="float">
@@ -1015,6 +1095,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E13]*17.777778" office:value-type="float" office:value="6296.03246546985" calcext:value-type="float">
       <text:p>6296</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I13]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I13]))*COS(RADIANS([.J13])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="28.8393257448786" calcext:value-type="float">
+      <text:p>28.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G13]/1.15" office:value-type="float" office:value="25.077674560764" calcext:value-type="float">
+      <text:p>25.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.182225" calcext:value-type="float">
       <text:p>39.182225000</text:p>
@@ -1049,7 +1135,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G14]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G14]))*COS(RADIANS([.H14]-[.H$2]));SIN(RADIANS([.H14]-[.H$2]))*COS(RADIANS([.G14]))))" office:value-type="float" office:value="-13.3245378727024" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I14]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I14]))*COS(RADIANS([.J14]-[.J$2]));SIN(RADIANS([.J14]-[.J$2]))*COS(RADIANS([.I14]))))" office:value-type="float" office:value="-13.3245378727024" calcext:value-type="float">
       <text:p>-13.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A14];360)" office:value-type="float" office:value="346.675462127298" calcext:value-type="float">
@@ -1066,6 +1152,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E14]*17.777778" office:value-type="float" office:value="6374.67496194651" calcext:value-type="float">
       <text:p>6375</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I14]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I14]))*COS(RADIANS([.J14])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="24.2755915517797" calcext:value-type="float">
+      <text:p>24.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G14]/1.15" office:value-type="float" office:value="21.1092100450258" calcext:value-type="float">
+      <text:p>21.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.126648333" calcext:value-type="float">
       <text:p>39.126648333</text:p>
@@ -1100,7 +1192,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G15]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G15]))*COS(RADIANS([.H15]-[.H$2]));SIN(RADIANS([.H15]-[.H$2]))*COS(RADIANS([.G15]))))" office:value-type="float" office:value="-13.0966997051752" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I15]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I15]))*COS(RADIANS([.J15]-[.J$2]));SIN(RADIANS([.J15]-[.J$2]))*COS(RADIANS([.I15]))))" office:value-type="float" office:value="-13.0966997051752" calcext:value-type="float">
       <text:p>-13.1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A15];360)" office:value-type="float" office:value="346.903300294825" calcext:value-type="float">
@@ -1117,6 +1209,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E15]*17.777778" office:value-type="float" office:value="6378.72541830873" calcext:value-type="float">
       <text:p>6379</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I15]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I15]))*COS(RADIANS([.J15])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="3.61282415513587" calcext:value-type="float">
+      <text:p>3.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G15]/1.15" office:value-type="float" office:value="3.14158622185728" calcext:value-type="float">
+      <text:p>3.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.835731667" calcext:value-type="float">
       <text:p>38.835731667</text:p>
@@ -1148,7 +1246,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G16]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G16]))*COS(RADIANS([.H16]-[.H$2]));SIN(RADIANS([.H16]-[.H$2]))*COS(RADIANS([.G16]))))" office:value-type="float" office:value="-12.9325093496226" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I16]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I16]))*COS(RADIANS([.J16]-[.J$2]));SIN(RADIANS([.J16]-[.J$2]))*COS(RADIANS([.I16]))))" office:value-type="float" office:value="-12.9325093496226" calcext:value-type="float">
       <text:p>-12.9</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A16];360)" office:value-type="float" office:value="347.067490650377" calcext:value-type="float">
@@ -1165,6 +1263,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E16]*17.777778" office:value-type="float" office:value="6381.64435799949" calcext:value-type="float">
       <text:p>6382</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I16]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I16]))*COS(RADIANS([.J16])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="18.6777297501151" calcext:value-type="float">
+      <text:p>18.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G16]/1.15" office:value-type="float" office:value="16.2415041305349" calcext:value-type="float">
+      <text:p>16.2</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.04825" calcext:value-type="float">
       <text:p>39.048250000</text:p>
@@ -1199,7 +1303,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G17]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G17]))*COS(RADIANS([.H17]-[.H$2]));SIN(RADIANS([.H17]-[.H$2]))*COS(RADIANS([.G17]))))" office:value-type="float" office:value="-12.265472062286" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I17]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I17]))*COS(RADIANS([.J17]-[.J$2]));SIN(RADIANS([.J17]-[.J$2]))*COS(RADIANS([.I17]))))" office:value-type="float" office:value="-12.265472062286" calcext:value-type="float">
       <text:p>-12.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A17];360)" office:value-type="float" office:value="347.734527937714" calcext:value-type="float">
@@ -1216,6 +1320,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E17]*17.777778" office:value-type="float" office:value="6393.50279881148" calcext:value-type="float">
       <text:p>6394</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I17]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I17]))*COS(RADIANS([.J17])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="7.95702143612676" calcext:value-type="float">
+      <text:p>8.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G17]/1.15" office:value-type="float" office:value="6.91914907489283" calcext:value-type="float">
+      <text:p>6.9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.897335" calcext:value-type="float">
       <text:p>38.897335000</text:p>
@@ -1247,7 +1357,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G18]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G18]))*COS(RADIANS([.H18]-[.H$2]));SIN(RADIANS([.H18]-[.H$2]))*COS(RADIANS([.G18]))))" office:value-type="float" office:value="-9.20259747248611" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I18]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I18]))*COS(RADIANS([.J18]-[.J$2]));SIN(RADIANS([.J18]-[.J$2]))*COS(RADIANS([.I18]))))" office:value-type="float" office:value="-9.20259747248611" calcext:value-type="float">
       <text:p>-9.2</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A18];360)" office:value-type="float" office:value="350.797402527514" calcext:value-type="float">
@@ -1264,6 +1374,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E18]*17.777778" office:value-type="float" office:value="47.9538233107808" calcext:value-type="float">
       <text:p>48</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I18]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I18]))*COS(RADIANS([.J18])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="17.559575504361" calcext:value-type="float">
+      <text:p>17.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G18]/1.15" office:value-type="float" office:value="15.2691960907487" calcext:value-type="float">
+      <text:p>15.3</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.035666667" calcext:value-type="float">
       <text:p>39.035666667</text:p>
@@ -1295,7 +1411,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G19]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G19]))*COS(RADIANS([.H19]-[.H$2]));SIN(RADIANS([.H19]-[.H$2]))*COS(RADIANS([.G19]))))" office:value-type="float" office:value="-7.21895105520255" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I19]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I19]))*COS(RADIANS([.J19]-[.J$2]));SIN(RADIANS([.J19]-[.J$2]))*COS(RADIANS([.I19]))))" office:value-type="float" office:value="-7.21895105520255" calcext:value-type="float">
       <text:p>-7.2</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A19];360)" office:value-type="float" office:value="352.781048944797" calcext:value-type="float">
@@ -1312,6 +1428,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E19]*17.777778" office:value-type="float" office:value="83.2186489477433" calcext:value-type="float">
       <text:p>83</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I19]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I19]))*COS(RADIANS([.J19])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="15.3436503216872" calcext:value-type="float">
+      <text:p>15.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G19]/1.15" office:value-type="float" office:value="13.3423046275541" calcext:value-type="float">
+      <text:p>13.3</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="39.005111667" calcext:value-type="float">
       <text:p>39.005111667</text:p>
@@ -1343,7 +1465,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G20]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G20]))*COS(RADIANS([.H20]-[.H$2]));SIN(RADIANS([.H20]-[.H$2]))*COS(RADIANS([.G20]))))" office:value-type="float" office:value="-5.5153871239085" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I20]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I20]))*COS(RADIANS([.J20]-[.J$2]));SIN(RADIANS([.J20]-[.J$2]))*COS(RADIANS([.I20]))))" office:value-type="float" office:value="-5.5153871239085" calcext:value-type="float">
       <text:p>-5.5</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A20];360)" office:value-type="float" office:value="354.484612876091" calcext:value-type="float">
@@ -1360,6 +1482,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E20]*17.777778" office:value-type="float" office:value="113.504230327096" calcext:value-type="float">
       <text:p>114</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I20]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I20]))*COS(RADIANS([.J20])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="3.71205144367422" calcext:value-type="float">
+      <text:p>3.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G20]/1.15" office:value-type="float" office:value="3.22787082058628" calcext:value-type="float">
+      <text:p>3.2</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.83828" calcext:value-type="float">
       <text:p>38.838280000</text:p>
@@ -1391,7 +1519,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G21]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G21]))*COS(RADIANS([.H21]-[.H$2]));SIN(RADIANS([.H21]-[.H$2]))*COS(RADIANS([.G21]))))" office:value-type="float" office:value="-5.10031667557667" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I21]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I21]))*COS(RADIANS([.J21]-[.J$2]));SIN(RADIANS([.J21]-[.J$2]))*COS(RADIANS([.I21]))))" office:value-type="float" office:value="-5.10031667557667" calcext:value-type="float">
       <text:p>-5.1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A21];360)" office:value-type="float" office:value="354.899683324423" calcext:value-type="float">
@@ -1408,6 +1536,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E21]*17.777778" office:value-type="float" office:value="120.8832606119" calcext:value-type="float">
       <text:p>121</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I21]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I21]))*COS(RADIANS([.J21])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="13.621310781969" calcext:value-type="float">
+      <text:p>13.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G21]/1.15" office:value-type="float" office:value="11.8446180712774" calcext:value-type="float">
+      <text:p>11.8</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.981166667" calcext:value-type="float">
       <text:p>38.981166667</text:p>
@@ -1439,7 +1573,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G22]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G22]))*COS(RADIANS([.H22]-[.H$2]));SIN(RADIANS([.H22]-[.H$2]))*COS(RADIANS([.G22]))))" office:value-type="float" office:value="-1.96248231062982" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I22]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I22]))*COS(RADIANS([.J22]-[.J$2]));SIN(RADIANS([.J22]-[.J$2]))*COS(RADIANS([.I22]))))" office:value-type="float" office:value="-1.96248231062982" calcext:value-type="float">
       <text:p>-2.0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A22];360)" office:value-type="float" office:value="358.03751768937" calcext:value-type="float">
@@ -1456,6 +1590,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E22]*17.777778" office:value-type="float" office:value="176.666983352696" calcext:value-type="float">
       <text:p>177</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I22]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I22]))*COS(RADIANS([.J22])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="13.9252571571536" calcext:value-type="float">
+      <text:p>13.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G22]/1.15" office:value-type="float" office:value="12.1089192670901" calcext:value-type="float">
+      <text:p>12.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.98623" calcext:value-type="float">
       <text:p>38.986230000</text:p>
@@ -1490,7 +1630,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G23]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G23]))*COS(RADIANS([.H23]-[.H$2]));SIN(RADIANS([.H23]-[.H$2]))*COS(RADIANS([.G23]))))" office:value-type="float" office:value="-1.35954374022724" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I23]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I23]))*COS(RADIANS([.J23]-[.J$2]));SIN(RADIANS([.J23]-[.J$2]))*COS(RADIANS([.I23]))))" office:value-type="float" office:value="-1.35954374022724" calcext:value-type="float">
       <text:p>-1.4</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A23];360)" office:value-type="float" office:value="358.640456259773" calcext:value-type="float">
@@ -1507,6 +1647,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E23]*17.777778" office:value-type="float" office:value="187.38589140495" calcext:value-type="float">
       <text:p>187</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I23]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I23]))*COS(RADIANS([.J23])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="3.30299371860407" calcext:value-type="float">
+      <text:p>3.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G23]/1.15" office:value-type="float" office:value="2.87216845096006" calcext:value-type="float">
+      <text:p>2.9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.832595" calcext:value-type="float">
       <text:p>38.832595000</text:p>
@@ -1538,7 +1684,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G24]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G24]))*COS(RADIANS([.H24]-[.H$2]));SIN(RADIANS([.H24]-[.H$2]))*COS(RADIANS([.G24]))))" office:value-type="float" office:value="-0.151329344671077" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I24]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I24]))*COS(RADIANS([.J24]-[.J$2]));SIN(RADIANS([.J24]-[.J$2]))*COS(RADIANS([.I24]))))" office:value-type="float" office:value="-0.151329344671077" calcext:value-type="float">
       <text:p>-0.2</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A24];360)" office:value-type="float" office:value="359.848670655329" calcext:value-type="float">
@@ -1555,6 +1701,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E24]*17.777778" office:value-type="float" office:value="208.865258705552" calcext:value-type="float">
       <text:p>209</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I24]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I24]))*COS(RADIANS([.J24])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="10.7377042431023" calcext:value-type="float">
+      <text:p>10.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G24]/1.15" office:value-type="float" office:value="9.33713412443678" calcext:value-type="float">
+      <text:p>9.3</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.940213333" calcext:value-type="float">
       <text:p>38.940213333</text:p>
@@ -1586,7 +1738,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G25]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G25]))*COS(RADIANS([.H25]-[.H$2]));SIN(RADIANS([.H25]-[.H$2]))*COS(RADIANS([.G25]))))" office:value-type="float" office:value="1.33358705959974" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I25]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I25]))*COS(RADIANS([.J25]-[.J$2]));SIN(RADIANS([.J25]-[.J$2]))*COS(RADIANS([.I25]))))" office:value-type="float" office:value="1.33358705959974" calcext:value-type="float">
       <text:p>1.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A25];360)" office:value-type="float" office:value="1.33358705959974" calcext:value-type="float">
@@ -1603,6 +1755,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E25]*17.777778" office:value-type="float" office:value="235.263772889237" calcext:value-type="float">
       <text:p>235</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I25]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I25]))*COS(RADIANS([.J25])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="9.51719986241902" calcext:value-type="float">
+      <text:p>9.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G25]/1.15" office:value-type="float" office:value="8.27582596732089" calcext:value-type="float">
+      <text:p>8.3</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.922511667" calcext:value-type="float">
       <text:p>38.922511667</text:p>
@@ -1637,7 +1795,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G26]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G26]))*COS(RADIANS([.H26]-[.H$2]));SIN(RADIANS([.H26]-[.H$2]))*COS(RADIANS([.G26]))))" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I26]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I26]))*COS(RADIANS([.J26]-[.J$2]));SIN(RADIANS([.J26]-[.J$2]))*COS(RADIANS([.I26]))))" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
       <text:p>15.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A26];360)" office:value-type="float" office:value="15.3128249159169" calcext:value-type="float">
@@ -1654,6 +1812,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E26]*17.777778" office:value-type="float" office:value="483.783560108039" calcext:value-type="float">
       <text:p>484</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I26]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I26]))*COS(RADIANS([.J26])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="0.882342333018245" calcext:value-type="float">
+      <text:p>0.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G26]/1.15" office:value-type="float" office:value="0.76725420262456" calcext:value-type="float">
+      <text:p>0.8</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.79712" calcext:value-type="float">
       <text:p>38.797120000</text:p>
@@ -1685,7 +1849,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G27]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G27]))*COS(RADIANS([.H27]-[.H$2]));SIN(RADIANS([.H27]-[.H$2]))*COS(RADIANS([.G27]))))" office:value-type="float" office:value="17.3494244943841" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I27]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I27]))*COS(RADIANS([.J27]-[.J$2]));SIN(RADIANS([.J27]-[.J$2]))*COS(RADIANS([.I27]))))" office:value-type="float" office:value="17.3494244943841" calcext:value-type="float">
       <text:p>17.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A27];360)" office:value-type="float" office:value="17.3494244943841" calcext:value-type="float">
@@ -1702,6 +1866,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E27]*17.777778" office:value-type="float" office:value="519.989775288923" calcext:value-type="float">
       <text:p>520</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I27]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I27]))*COS(RADIANS([.J27])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="2.15028421883561" calcext:value-type="float">
+      <text:p>2.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G27]/1.15" office:value-type="float" office:value="1.86981236420488" calcext:value-type="float">
+      <text:p>1.9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.814508333" calcext:value-type="float">
       <text:p>38.814508333</text:p>
@@ -1736,7 +1906,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G28]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G28]))*COS(RADIANS([.H28]-[.H$2]));SIN(RADIANS([.H28]-[.H$2]))*COS(RADIANS([.G28]))))" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I28]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I28]))*COS(RADIANS([.J28]-[.J$2]));SIN(RADIANS([.J28]-[.J$2]))*COS(RADIANS([.I28]))))" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
       <text:p>22.9</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A28];360)" office:value-type="float" office:value="22.8872663092405" calcext:value-type="float">
@@ -1753,6 +1923,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E28]*17.777778" office:value-type="float" office:value="618.440297672557" calcext:value-type="float">
       <text:p>618</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I28]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I28]))*COS(RADIANS([.J28])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="9.25530080240672" calcext:value-type="float">
+      <text:p>9.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G28]/1.15" office:value-type="float" office:value="8.04808765426671" calcext:value-type="float">
+      <text:p>8.0</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.908193333" calcext:value-type="float">
       <text:p>38.908193333</text:p>
@@ -1784,7 +1960,7 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G29]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G29]))*COS(RADIANS([.H29]-[.H$2]));SIN(RADIANS([.H29]-[.H$2]))*COS(RADIANS([.G29]))))" office:value-type="float" office:value="37.0525831878981" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I29]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I29]))*COS(RADIANS([.J29]-[.J$2]));SIN(RADIANS([.J29]-[.J$2]))*COS(RADIANS([.I29]))))" office:value-type="float" office:value="37.0525831878981" calcext:value-type="float">
       <text:p>37.1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A29];360)" office:value-type="float" office:value="37.0525831878981" calcext:value-type="float">
@@ -1801,6 +1977,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E29]*17.777778" office:value-type="float" office:value="870.268156440985" calcext:value-type="float">
       <text:p>870</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I29]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I29]))*COS(RADIANS([.J29])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="12.8370464737232" calcext:value-type="float">
+      <text:p>12.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G29]/1.15" office:value-type="float" office:value="11.1626491075854" calcext:value-type="float">
+      <text:p>11.2</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.932995" calcext:value-type="float">
       <text:p>38.932995000</text:p>
@@ -1835,7 +2017,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G30]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G30]))*COS(RADIANS([.H30]-[.H$2]));SIN(RADIANS([.H30]-[.H$2]))*COS(RADIANS([.G30]))))" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I30]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I30]))*COS(RADIANS([.J30]-[.J$2]));SIN(RADIANS([.J30]-[.J$2]))*COS(RADIANS([.I30]))))" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
       <text:p>46.8</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A30];360)" office:value-type="float" office:value="46.7615635814083" calcext:value-type="float">
@@ -1852,6 +2034,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E30]*17.777778" office:value-type="float" office:value="1042.87225448316" calcext:value-type="float">
       <text:p>1043</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I30]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I30]))*COS(RADIANS([.J30])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="0.953229338041463" calcext:value-type="float">
+      <text:p>1.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G30]/1.15" office:value-type="float" office:value="0.828895076557794" calcext:value-type="float">
+      <text:p>0.8</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.794253333" calcext:value-type="float">
       <text:p>38.794253333</text:p>
@@ -1886,7 +2074,7 @@
      <table:table-cell table:number-columns-repeated="48"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.G$2]))*SIN(RADIANS([.G31]))-SIN(RADIANS([.G$2]))*COS(RADIANS([.G31]))*COS(RADIANS([.H31]-[.H$2]));SIN(RADIANS([.H31]-[.H$2]))*COS(RADIANS([.G31]))))" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
+     <table:table-cell table:formula="of:=DEGREES(ATAN2(COS(RADIANS([.I$2]))*SIN(RADIANS([.I31]))-SIN(RADIANS([.I$2]))*COS(RADIANS([.I31]))*COS(RADIANS([.J31]-[.J$2]));SIN(RADIANS([.J31]-[.J$2]))*COS(RADIANS([.I31]))))" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
       <text:p>52.3</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=MOD([.A31];360)" office:value-type="float" office:value="52.324290680722" calcext:value-type="float">
@@ -1903,6 +2091,12 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.E31]*17.777778" office:value-type="float" office:value="1141.76518192934" calcext:value-type="float">
       <text:p>1142</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ACOS(SIN(RADIANS([.I$2]))*SIN(RADIANS([.I31]))+COS(RADIANS([.I$2]))*COS(RADIANS([.I31]))*COS(RADIANS([.J31])-RADIANS([.J$2])))*3958.7" office:value-type="float" office:value="4.26204489230685" calcext:value-type="float">
+      <text:p>4.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.G31]/1.15" office:value-type="float" office:value="3.70612599331031" calcext:value-type="float">
+      <text:p>3.7</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="38.822488333" calcext:value-type="float">
       <text:p>38.822488333</text:p>
@@ -1934,15 +2128,15 @@
      <table:table-cell table:number-columns-repeated="49"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="1048544">
-     <table:table-cell table:number-columns-repeated="64"/>
+     <table:table-cell table:number-columns-repeated="66"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="64"/>
+     <table:table-cell table:number-columns-repeated="66"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
    <table:database-ranges>
-    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="Sheet1.A3:Sheet1.O31">
+    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="Sheet1.A3:Sheet1.Q31">
      <table:sort>
       <table:sort-by table:field-number="0" table:data-type="automatic"/>
      </table:sort>

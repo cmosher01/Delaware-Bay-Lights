@@ -361,60 +361,89 @@
 #comp_5400 { left: 5400px; }
 #compl_5400 { left: 5402px; }
 #label_001 { left:   65px; }
-#light_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1607ms; }
+#light_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1235ms; }
+#lightl_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1235ms; }
 #label_002 { left:  393px; }
-#light_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2309ms; }
+#light_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 673ms; }
+#lightl_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 673ms; }
 #label_003 { left:  411px; }
-#light_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1041ms; }
+#light_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 428ms; }
+#lightl_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 428ms; }
 #label_004 { left:  460px; }
-#light_004 { animation-name: Iso; background-color: red; animation-duration: 2.00s; animation-delay: 224ms; }
+#light_004 { animation-name: Iso; background-color: red; animation-duration: 2.00s; animation-delay: 895ms; }
+#lightl_004 { animation-name: Iso; background-color: red; animation-duration: 2.00s; animation-delay: 895ms; }
 #label_005 { left:  866px; }
-#light_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 1710ms; }
+#light_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 864ms; }
+#lightl_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 864ms; }
 #label_006 { left: 1357px; }
-#light_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2642ms; }
+#light_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1777ms; }
+#lightl_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1777ms; }
 #label_007 { left: 1361px; }
-#light_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 705ms; }
+#light_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 3611ms; }
+#lightl_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 3611ms; }
 #label_008 { left: 1754px; }
-#light_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2227ms; }
+#light_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3211ms; }
+#lightl_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3211ms; }
 #label_009 { left: 1957px; }
-#light_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 1758ms; }
+#light_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2184ms; }
+#lightl_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2184ms; }
 #label_010 { left: 2158px; }
-#light_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 456ms; }
+#light_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 3410ms; }
+#lightl_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 3410ms; }
 #label_011 { left: 2168px; }
-#light_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 2508ms; }
+#light_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3391ms; }
+#lightl_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3391ms; }
 #label_012 { left: 2300px; }
-#light_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 1512ms; }
+#light_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 2709ms; }
+#lightl_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 2709ms; }
 #label_013 { left: 2307px; }
-#light_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 2804ms; }
+#light_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 748ms; }
+#lightl_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 748ms; }
 #label_014 { left: 2312px; }
-#light_014 { animation-name: Fl; background-color: red; animation-duration: 9.00s; animation-delay: 2012ms; }
+#light_014 { animation-name: Fl; background-color: red; animation-duration: 9.00s; animation-delay: 2691ms; }
+#lightl_014 { animation-name: Fl; background-color: red; animation-duration: 9.00s; animation-delay: 2691ms; }
 #label_015 { left: 2332px; }
-#light_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 356ms; }
+#light_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 3520ms; }
+#lightl_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 3520ms; }
 #label_016 { left: 2424px; }
-#light_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 236ms; }
+#light_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2297ms; }
+#lightl_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2297ms; }
 #label_017 { left: 2483px; }
-#light_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 2709ms; }
+#light_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 2698ms; }
+#lightl_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 2698ms; }
 #label_018 { left: 2535px; }
-#light_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 2424ms; }
+#light_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 2791ms; }
+#lightl_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 2791ms; }
 #label_019 { left: 2547px; }
-#light_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1624ms; }
+#light_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2668ms; }
+#lightl_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2668ms; }
 #label_020 { left: 2641px; }
-#light_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2158ms; }
+#light_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1258ms; }
+#lightl_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1258ms; }
 #label_021 { left: 2659px; }
-#light_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2938ms; }
+#light_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2514ms; }
+#lightl_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2514ms; }
 #label_022 { left: 2695px; }
-#light_022 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 689ms; }
+#light_022 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 558ms; }
+#lightl_022 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 558ms; }
 #label_023 { left: 2740px; }
-#light_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 192ms; }
+#light_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 1854ms; }
+#lightl_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 1854ms; }
 #label_024 { left: 3159px; }
-#light_024 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 645ms; }
+#light_024 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 771ms; }
+#lightl_024 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 771ms; }
 #label_025 { left: 3220px; }
-#light_025 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2735ms; }
+#light_025 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2001ms; }
+#lightl_025 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2001ms; }
 #label_026 { left: 3387px; }
-#light_026 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 926ms; }
+#light_026 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2383ms; }
+#lightl_026 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2383ms; }
 #label_027 { left: 3812px; }
-#light_027 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 1883ms; }
+#light_027 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 3618ms; }
+#lightl_027 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 3618ms; }
 #label_028 { left: 4103px; }
-#light_028 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3316ms; }
+#light_028 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3456ms; }
+#lightl_028 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3456ms; }
 #label_029 { left: 4270px; }
-#light_029 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1935ms; }
+#light_029 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1864ms; }
+#lightl_029 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1864ms; }
