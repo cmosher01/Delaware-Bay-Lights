@@ -89,6 +89,7 @@ public class DelawareBayLights {
         final var outCss = new PrintWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileCss), StandardCharsets.UTF_8)));
 
         {
+            outHtml.println("<div>");
             for (int y = -90; y <= +90; ++y) {
                 var lab = "" + ((y + 360) % 360) + "°";
                 var cls = "compass";
@@ -116,8 +117,10 @@ public class DelawareBayLights {
                     """,
                     p,p,p,p+2);
             }
+            outHtml.println("</div>");
         }
 
+        outHtml.println("<div>");
         for (int i = 0; i < nlRows.getLength(); ++i) {
             final var nRow = nlRows.item(i);
             final var vals = new HashMap<Integer, String>();
@@ -142,7 +145,7 @@ public class DelawareBayLights {
             if (Objects.isNull(quot) || quot.isEmpty()) {
                 quot = "";
             } else {
-                quot = "“"+quot+"”<br/>";
+                quot = " “"+quot+"”";
             }
 
             var link = vals.get(cols.get("link"));
@@ -153,8 +156,8 @@ public class DelawareBayLights {
                 <figure id="label_%03d">
                     <%s class="light" id="light_%03d" %s/>
                     <figcaption>
-                        %s
-                        %s<br/>
+                        <span class="lightinline" id="light_%03d"/><br/>
+                        %s%s<br/>
                         <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
                         %s<br/>
                         true azimuth %3.1f° (%d mils)<br/>
@@ -166,8 +169,9 @@ public class DelawareBayLights {
                 link.isEmpty() ? "span" : "a",
                 i+1,
                 link.isEmpty() ? "" : "href=\""+link+"\"",
-                quot,
+                i+1,
                 vals.get(cols.get("name")),
+                quot,
                 vals.get(cols.get("style")),
                 color(vals.get(cols.get("color"))),
                 pd(vals.get(cols.get("rate"))),
@@ -206,6 +210,7 @@ public class DelawareBayLights {
                 r,
                 randDelay);
         }
+        outHtml.println("</div>");
 
         outCss.flush();
         outCss.close();

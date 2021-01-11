@@ -4,6 +4,12 @@ body {
     font-size: smaller;
 }
 
+a {
+    color: unset;
+    cursor: unset;
+    text-decoration: unset;
+}
+
 figure {
     display: inline;
     top: 200px;
@@ -32,10 +38,16 @@ figure:hover figcaption {
 }
 
 .light {
+    cursor: crosshair;
     position: absolute;
-    width: 1px;
-    height: 1px;
     padding: 2px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+}
+
+.lightinline {
+    position: absolute;
+    padding: 0.8ex;
     border-radius: 50%;
     animation-iteration-count: infinite;
 }
