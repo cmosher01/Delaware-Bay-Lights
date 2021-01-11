@@ -21,8 +21,6 @@ tasks.withType(JavaCompile) {
     options.compilerArgs << '--enable-preview'
 }
 
-inc('dependencies')
-
 application {
     mainClass.set 'nu.mine.mosher.DelawareBayLights'
     applicationDefaultJvmArgs << '--enable-preview'
