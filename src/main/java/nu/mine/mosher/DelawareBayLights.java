@@ -87,19 +87,21 @@ public class DelawareBayLights {
         final var fileCss = new File("docs/lights.css");
         final var outCss = new PrintWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileCss), StandardCharsets.UTF_8)));
 
+        final int YMIN = -95;
+        final int YMAX = +90;
         {
             outHtml.println("<div>");
-            for (int y = -90; y <= +90; ++y) {
+            for (int y = YMIN; y <= YMAX; ++y) {
                 var lab = "" + ((y + 360) % 360) + "°";
                 var cls = "compass";
-                if (((y+90) % 45) == 0) {
+                if (((y-YMIN) % 45) == 0) {
                     cls = "compass1";
-                } else if (((y+90) % 5) == 0) {
+                } else if (((y-YMIN) % 5) == 0) {
                     cls = "compass0";
                 } else {
                     lab = " ";
                 }
-                final var p = (y+90)*30;
+                final var p = (y-YMIN)*30;
                 outHtml.printf(
                     """
                     <span class="%s" id="comp_%03d"/>
@@ -140,82 +142,93 @@ public class DelawareBayLights {
                     ++iCol;
                 }
             }
-            var quot = vals.get(cols.get("label"));
-            if (Objects.isNull(quot) || quot.isEmpty()) {
-                quot = "";
-            } else {
-                quot = " “"+quot+"”";
+            final var bearing = pd(vals.get(cols.get("true bearing")))-YMIN;
+            if (!Double.isNaN(bearing)) {
+                var quot = vals.get(cols.get("label"));
+                if (Objects.isNull(quot) || quot.isEmpty()) {
+                    quot = "";
+                } else {
+                    quot = " “" + quot + "”";
+                }
+
+                var link = vals.get(cols.get("link"));
+                if (Objects.isNull(link)) {
+                    link = "";
+                }
+                link = link.replace("&", "&amp;");
+
+                outHtml.printf(
+                    """
+                        <figure id="label_%03d">
+                            <%s class="light" id="light_%03d" %s/>
+                            <figcaption>
+                                <span class="lightinline" id="lightl_%03d"/><br/>
+                                %s%s<br/>
+                                <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
+                                %s<br/>
+                                %2.1f miles (%2.1f NMi)<br/>
+                                azimuth: &#x2605; %3.1f° (%d mils); &#x1F9ED; %3.1f° (%d mils)<br/>
+                            </figcaption>
+                        </figure>
+                        """,
+                    i + 1,
+                    link.isEmpty() ? "span" : "a",
+                    i + 1,
+                    link.isEmpty() ? "" : "href=\"" + link + "\"",
+                    i + 1,
+                    vals.get(cols.get("name")),
+                    quot,
+                    vals.get(cols.get("style")),
+                    color(vals.get(cols.get("color"))),
+                    pd(vals.get(cols.get("rate"))),
+                    pd(vals.get(cols.get("height"))),
+                    pint(vals.get(cols.get("visibility"))),
+                    latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
+                    pd(vals.get(cols.get("distance"))),
+                    pd(vals.get(cols.get("distanceNMi"))),
+                    pd(vals.get(cols.get("true abs"))),
+                    pint(vals.get(cols.get("true mils"))),
+                    pd(vals.get(cols.get("mag abs"))),
+                    pint(vals.get(cols.get("mag mils")))
+                );
+
+                final var r = pd(vals.get(cols.get("rate")));
+                final var y = bearing * 30.0D;
+                final var randDelay = ThreadLocalRandom.current().nextInt(0, 4000);
+
+                var anim = vals.get(cols.get("style"));
+                if (Objects.isNull(anim)) {
+                    anim = "";
+                }
+                if (anim.isBlank()) {
+                    anim = "none";
+                }
+                var color = vals.get(cols.get("color"));
+                if (Objects.isNull(color)) {
+                    color = "";
+                }
+                if (color.isBlank()) {
+                    color = "darkblue";
+                }
+                outCss.printf(
+                    """
+                        #label_%03d { left: %4.0fpx; }
+                        #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
+                        #lightl_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
+                        """,
+                    i + 1,
+                    y,
+                    i + 1,
+                    anim,
+                    color,
+                    r,
+                    randDelay,
+                    i + 1,
+                    anim,
+                    color,
+                    r,
+                    randDelay);
             }
-
-            var link = vals.get(cols.get("link"));
-            link = link.replace("&", "&amp;");
-
-            outHtml.printf(
-                """
-                <figure id="label_%03d">
-                    <%s class="light" id="light_%03d" %s/>
-                    <figcaption>
-                        <span class="lightinline" id="lightl_%03d"/><br/>
-                        %s%s<br/>
-                        <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
-                        %s<br/>
-                        %2.1f miles (%2.1f NMi)<br/>
-                        azimuth: &#x2605; %3.1f° (%d mils); &#x1F9ED; %3.1f° (%d mils)<br/>
-                    </figcaption>
-                </figure>
-                """,
-                i+1,
-                link.isEmpty() ? "span" : "a",
-                i+1,
-                link.isEmpty() ? "" : "href=\""+link+"\"",
-                i+1,
-                vals.get(cols.get("name")),
-                quot,
-                vals.get(cols.get("style")),
-                color(vals.get(cols.get("color"))),
-                pd(vals.get(cols.get("rate"))),
-                pd(vals.get(cols.get("height"))),
-                pint(vals.get(cols.get("visibility"))),
-                latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
-                pd(vals.get(cols.get("distance"))),
-                pd(vals.get(cols.get("distanceNMi"))),
-                pd(vals.get(cols.get("true abs"))),
-                pint(vals.get(cols.get("true mils"))),
-                pd(vals.get(cols.get("mag abs"))),
-                pint(vals.get(cols.get("mag mils")))
-            );
-
-            final var r = pd(vals.get(cols.get("rate")));
-            final var bearing = pd(vals.get(cols.get("true bearing")))+90.0D; // or mag?
-            final var y = bearing*30.0D;
-            final var randDelay = ThreadLocalRandom.current().nextInt(0, 4000);
-
-            var anim = vals.get(cols.get("style"));
-            if (anim.isBlank()) {
-                anim = "none";
-            }
-            var color = vals.get(cols.get("color"));
-            if (color.isBlank()) {
-                color = "darkblue";
-            }
-            outCss.printf(
-                """
-                #label_%03d { left: %4.0fpx; }
-                #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
-                #lightl_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
-                """,
-                i+1,
-                y,
-                i+1,
-                anim,
-                color,
-                r,
-                randDelay,
-                i+1,
-                anim,
-                color,
-                r,
-                randDelay);
         }
         outHtml.println("</div>");
 

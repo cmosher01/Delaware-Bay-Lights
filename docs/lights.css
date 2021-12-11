@@ -360,90 +360,166 @@
 #compl_5370 { left: 5372px; }
 #comp_5400 { left: 5400px; }
 #compl_5400 { left: 5402px; }
-#label_001 { left:   65px; }
-#light_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1235ms; }
-#lightl_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1235ms; }
-#label_002 { left:  393px; }
-#light_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 673ms; }
-#lightl_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 673ms; }
-#label_003 { left:  411px; }
-#light_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 428ms; }
-#lightl_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 428ms; }
-#label_004 { left:  460px; }
-#light_004 { animation-name: Iso; background-color: red; animation-duration: 2.00s; animation-delay: 895ms; }
-#lightl_004 { animation-name: Iso; background-color: red; animation-duration: 2.00s; animation-delay: 895ms; }
-#label_005 { left:  866px; }
-#light_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 864ms; }
-#lightl_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 864ms; }
-#label_006 { left: 1357px; }
-#light_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1777ms; }
-#lightl_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1777ms; }
-#label_007 { left: 1361px; }
-#light_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 3611ms; }
-#lightl_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 3611ms; }
-#label_008 { left: 1754px; }
-#light_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3211ms; }
-#lightl_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3211ms; }
-#label_009 { left: 1957px; }
-#light_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2184ms; }
-#lightl_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2184ms; }
-#label_010 { left: 2158px; }
-#light_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 3410ms; }
-#lightl_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 3410ms; }
-#label_011 { left: 2168px; }
-#light_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3391ms; }
-#lightl_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3391ms; }
-#label_012 { left: 2300px; }
-#light_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 2709ms; }
-#lightl_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 2709ms; }
-#label_013 { left: 2307px; }
-#light_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 748ms; }
-#lightl_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 748ms; }
-#label_014 { left: 2312px; }
-#light_014 { animation-name: Fl; background-color: red; animation-duration: 9.00s; animation-delay: 2691ms; }
-#lightl_014 { animation-name: Fl; background-color: red; animation-duration: 9.00s; animation-delay: 2691ms; }
-#label_015 { left: 2332px; }
-#light_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 3520ms; }
-#lightl_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 3520ms; }
-#label_016 { left: 2424px; }
-#light_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2297ms; }
-#lightl_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2297ms; }
-#label_017 { left: 2483px; }
-#light_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 2698ms; }
-#lightl_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 2698ms; }
-#label_018 { left: 2535px; }
-#light_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 2791ms; }
-#lightl_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 2791ms; }
-#label_019 { left: 2547px; }
-#light_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2668ms; }
-#lightl_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2668ms; }
-#label_020 { left: 2641px; }
-#light_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1258ms; }
-#lightl_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1258ms; }
-#label_021 { left: 2659px; }
-#light_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2514ms; }
-#lightl_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2514ms; }
-#label_022 { left: 2695px; }
-#light_022 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 558ms; }
-#lightl_022 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 558ms; }
-#label_023 { left: 2740px; }
-#light_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 1854ms; }
-#lightl_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 1854ms; }
-#label_024 { left: 3159px; }
-#light_024 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 771ms; }
-#lightl_024 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 771ms; }
-#label_025 { left: 3220px; }
-#light_025 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2001ms; }
-#lightl_025 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 2001ms; }
-#label_026 { left: 3387px; }
-#light_026 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2383ms; }
-#lightl_026 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2383ms; }
-#label_027 { left: 3812px; }
-#light_027 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 3618ms; }
-#lightl_027 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 3618ms; }
-#label_028 { left: 4103px; }
-#light_028 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3456ms; }
-#lightl_028 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3456ms; }
-#label_029 { left: 4270px; }
-#light_029 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1864ms; }
-#lightl_029 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1864ms; }
+#comp_5430 { left: 5430px; }
+#compl_5430 { left: 5432px; }
+#comp_5460 { left: 5460px; }
+#compl_5460 { left: 5462px; }
+#comp_5490 { left: 5490px; }
+#compl_5490 { left: 5492px; }
+#comp_5520 { left: 5520px; }
+#compl_5520 { left: 5522px; }
+#comp_5550 { left: 5550px; }
+#compl_5550 { left: 5552px; }
+#label_001 { left:  215px; }
+#light_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2024ms; }
+#lightl_001 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2024ms; }
+#label_002 { left:  543px; }
+#light_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3053ms; }
+#lightl_002 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3053ms; }
+#label_003 { left:  561px; }
+#light_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2073ms; }
+#lightl_003 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2073ms; }
+#label_004 { left:  610px; }
+#light_004 { animation-name: Iso; background-color: red; animation-duration: 4.00s; animation-delay: 1744ms; }
+#lightl_004 { animation-name: Iso; background-color: red; animation-duration: 4.00s; animation-delay: 1744ms; }
+#label_005 { left: 1016px; }
+#light_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 1012ms; }
+#lightl_005 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 1012ms; }
+#label_006 { left: 1507px; }
+#light_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1191ms; }
+#lightl_006 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 1191ms; }
+#label_007 { left: 1511px; }
+#light_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2712ms; }
+#lightl_007 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2712ms; }
+#label_008 { left: 1904px; }
+#light_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2098ms; }
+#lightl_008 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 2098ms; }
+#label_009 { left: 2107px; }
+#light_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2527ms; }
+#lightl_009 { animation-name: Fl; background-color: yellow; animation-duration: 6.00s; animation-delay: 2527ms; }
+#label_010 { left: 2308px; }
+#light_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 670ms; }
+#lightl_010 { animation-name: Fl; background-color: yellow; animation-duration: 4.00s; animation-delay: 670ms; }
+#label_011 { left: 2318px; }
+#light_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 486ms; }
+#lightl_011 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 486ms; }
+#label_012 { left: 2450px; }
+#light_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 3800ms; }
+#lightl_012 { animation-name: Oc; background-color: white; animation-duration: 4.00s; animation-delay: 3800ms; }
+#label_013 { left: 2457px; }
+#light_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 2342ms; }
+#lightl_013 { animation-name: Fl; background-color: white; animation-duration: 4.00s; animation-delay: 2342ms; }
+#label_014 { left: 2462px; }
+#light_014 { animation-name: Fl; background-color: red; animation-duration: 9.50s; animation-delay: 1595ms; }
+#lightl_014 { animation-name: Fl; background-color: red; animation-duration: 9.50s; animation-delay: 1595ms; }
+#label_015 { left: 2482px; }
+#light_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 1304ms; }
+#lightl_015 { animation-name: Fl; background-color: yellow; animation-duration: 2.50s; animation-delay: 1304ms; }
+#label_016 { left: 2574px; }
+#light_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1827ms; }
+#lightl_016 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1827ms; }
+#label_017 { left: 2633px; }
+#light_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1108ms; }
+#lightl_017 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 1108ms; }
+#label_018 { left: 2685px; }
+#light_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 943ms; }
+#lightl_018 { animation-name: Q; background-color: red; animation-duration: 1.00s; animation-delay: 943ms; }
+#label_019 { left: 2697px; }
+#light_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1522ms; }
+#lightl_019 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 1522ms; }
+#label_020 { left: 2791px; }
+#light_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1488ms; }
+#lightl_020 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 1488ms; }
+#label_021 { left: 2809px; }
+#light_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3590ms; }
+#lightl_021 { animation-name: Fl; background-color: green; animation-duration: 4.00s; animation-delay: 3590ms; }
+#label_022 { left: 2845px; }
+#light_022 { animation-name: Fl; background-color: red; animation-duration: 4.40s; animation-delay: 1308ms; }
+#lightl_022 { animation-name: Fl; background-color: red; animation-duration: 4.40s; animation-delay: 1308ms; }
+#label_023 { left: 2890px; }
+#light_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 3517ms; }
+#lightl_023 { animation-name: Fl; background-color: white; animation-duration: 2.50s; animation-delay: 3517ms; }
+#label_024 { left: 3030px; }
+#light_024 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 1174ms; }
+#lightl_024 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 1174ms; }
+#label_025 { left: 3309px; }
+#light_025 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 960ms; }
+#lightl_025 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 960ms; }
+#label_026 { left: 3370px; }
+#light_026 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 3431ms; }
+#lightl_026 { animation-name: Fl; background-color: white; animation-duration: 10.00s; animation-delay: 3431ms; }
+#label_027 { left: 3537px; }
+#light_027 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 266ms; }
+#lightl_027 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 266ms; }
+#label_028 { left: 3962px; }
+#light_028 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 116ms; }
+#lightl_028 { animation-name: Fl; background-color: white; animation-duration: 15.00s; animation-delay: 116ms; }
+#label_029 { left: 4253px; }
+#light_029 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3837ms; }
+#lightl_029 { animation-name: none; background-color: darkblue; animation-duration: 0.00s; animation-delay: 3837ms; }
+#label_030 { left: 4420px; }
+#light_030 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 3734ms; }
+#lightl_030 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 3734ms; }
+#label_031 { left: 1041px; }
+#light_031 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 2628ms; }
+#lightl_031 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 2628ms; }
+#label_032 { left: 1197px; }
+#light_032 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 1768ms; }
+#lightl_032 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 1768ms; }
+#label_033 { left: 1260px; }
+#light_033 { animation-name: Iso; background-color: red; animation-duration: 3.00s; animation-delay: 579ms; }
+#lightl_033 { animation-name: Iso; background-color: red; animation-duration: 3.00s; animation-delay: 579ms; }
+#label_034 { left: 1311px; }
+#light_034 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1922ms; }
+#lightl_034 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1922ms; }
+#label_035 { left: 1320px; }
+#light_035 { animation-name: Fl; background-color: white; animation-duration: 1.50s; animation-delay: 509ms; }
+#lightl_035 { animation-name: Fl; background-color: white; animation-duration: 1.50s; animation-delay: 509ms; }
+#label_036 { left: 1740px; }
+#light_036 { animation-name: Oc; background-color: red; animation-duration: 6.00s; animation-delay: 2449ms; }
+#lightl_036 { animation-name: Oc; background-color: red; animation-duration: 6.00s; animation-delay: 2449ms; }
+#label_037 { left: 1800px; }
+#light_037 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 3888ms; }
+#lightl_037 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 3888ms; }
+#label_038 { left: 3774px; }
+#light_038 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 3743ms; }
+#lightl_038 { animation-name: Fl; background-color: red; animation-duration: 2.50s; animation-delay: 3743ms; }
+#label_039 { left: 3780px; }
+#light_039 { animation-name: Oc; background-color: red; animation-duration: 3.00s; animation-delay: 1491ms; }
+#lightl_039 { animation-name: Oc; background-color: red; animation-duration: 3.00s; animation-delay: 1491ms; }
+#label_040 { left: 3810px; }
+#light_040 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2341ms; }
+#lightl_040 { animation-name: Fl; background-color: red; animation-duration: 4.00s; animation-delay: 2341ms; }
+#label_041 { left: 3840px; }
+#light_041 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1671ms; }
+#lightl_041 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1671ms; }
+#label_042 { left: 3873px; }
+#light_042 { animation-name: Iso; background-color: red; animation-duration: 2.60s; animation-delay: 1424ms; }
+#lightl_042 { animation-name: Iso; background-color: red; animation-duration: 2.60s; animation-delay: 1424ms; }
+#label_043 { left: 3915px; }
+#light_043 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 2574ms; }
+#lightl_043 { animation-name: Fl; background-color: red; animation-duration: 2.00s; animation-delay: 2574ms; }
+#label_044 { left: 3936px; }
+#light_044 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 2158ms; }
+#lightl_044 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 2158ms; }
+#label_045 { left: 4026px; }
+#light_045 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 603ms; }
+#lightl_045 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 603ms; }
+#label_046 { left: 4029px; }
+#light_046 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1184ms; }
+#lightl_046 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1184ms; }
+#label_047 { left:   81px; }
+#light_047 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1812ms; }
+#lightl_047 { animation-name: Fl; background-color: red; animation-duration: 3.00s; animation-delay: 1812ms; }
+#label_048 { left:   56px; }
+#light_048 { animation-name: Iso; background-color: red; animation-duration: 3.00s; animation-delay: 2824ms; }
+#lightl_048 { animation-name: Iso; background-color: red; animation-duration: 3.00s; animation-delay: 2824ms; }
+#label_049 { left: 2979px; }
+#light_049 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3145ms; }
+#lightl_049 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 3145ms; }
+#label_050 { left: 3000px; }
+#light_050 { animation-name: Q; background-color: white; animation-duration: 0.94s; animation-delay: 3753ms; }
+#lightl_050 { animation-name: Q; background-color: white; animation-duration: 0.94s; animation-delay: 3753ms; }
+#label_051 { left: 3099px; }
+#light_051 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 1153ms; }
+#lightl_051 { animation-name: Iso; background-color: white; animation-duration: 6.00s; animation-delay: 1153ms; }
