@@ -19,10 +19,7 @@
 package nu.mine.mosher;
 
 import org.apache.commons.csv.*;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.*;
-import javax.xml.xpath.XPathExpressionException;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -31,7 +28,14 @@ import static java.lang.Math.*;
 
 public class DelawareBayLights {
 
-    public record LatLng(double latitude, double longitude) {}
+    public record LatLng(double latitude, double longitude) {
+        public double rlat() {
+            return toRadians(latitude());
+        }
+        public double rlon() {
+            return toRadians(longitude());
+        }
+    }
 
     public record Light(
         double bearing,
@@ -65,14 +69,10 @@ public class DelawareBayLights {
     }
 
     public static double computeHeading(final LatLng from, final LatLng to) {
-        double fromLat = toRadians(from.latitude);
-        double fromLng = toRadians(from.longitude);
-        double toLat = toRadians(to.latitude);
-        double toLng = toRadians(to.longitude);
-        double dLng = toLng-fromLng;
-        double heading = atan2(
-            sin(dLng)*cos(toLat),
-            cos(fromLat)*sin(toLat) - sin(fromLat)*cos(toLat)*cos(dLng));
+        final double dLng = to.rlon()-from.rlon();
+        final double heading = atan2(
+            sin(dLng)*cos(to.rlat()),
+            cos(from.rlat())*sin(to.rlat()) - sin(from.rlat())*cos(to.rlat())*cos(dLng));
         return wrap(toDegrees(heading), -180.0D, 180.0D);
     }
 
@@ -106,7 +106,7 @@ public class DelawareBayLights {
         return Optional.ofNullable(record.get(field)).orElse("").trim();
     }
 
-    public static void main(final String... args) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+    public static void main(final String... args) throws IOException {
         final var fmt =
             CSVFormat.Builder.create()
                 .setHeader()
@@ -331,12 +331,12 @@ public class DelawareBayLights {
         final var loc = latLng.get();
 
         final var mid = (
-            sin(toRadians(home.latitude())) *
-            sin(toRadians( loc.latitude()))
+            sin(home.rlat()) *
+            sin( loc.rlat())
         ) + (
-            cos(toRadians(home.latitude())) *
-            cos(toRadians( loc.latitude())) *
-            cos(toRadians( loc.longitude()) - toRadians(home.longitude()))
+            cos(home.rlat()) *
+            cos( loc.rlat()) *
+            cos( loc.rlon() - home.rlon())
         );
 
         return acos(mid) * EARTH_RADIUS_MILES;

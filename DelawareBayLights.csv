@@ -20,7 +20,7 @@ bearing,latitude,longitude,style,color,rate,offset,height,visibility,label,name,
 -012.3,38.89733500,-75.13573667,Fl ,yellow,02.50,2976,001,01,A ,Big Stone Beach Tanker Anchorage Lighted Buoy,
 -009.2,39.03566667,-75.15662667,Fl ,red   ,04.00,3615,001,01,16,Delaware Bay Main Channel Lighted Buoy,
 -007.2,39.00511167,-75.14021167,Fl ,red   ,02.50,2091,001,01,14,Delaware Bay Main Channel Lighted Buoy,
--005.5,38.83828000,-75.11093000,Q  ,red   ,01.00,1563,015,06,2 ,Delaware Bay East Icebreaker Light (out),
+-005.5,38.83828000,-75.11093000,Q  ,red   ,01.00,1563,015,06,2 ,Delaware Bay East Icebreaker Light,
 -005.1,38.98116667,-75.12684667,Fl ,red   ,04.00,1749,001,01,12,Delaware Bay Main Channel Lighted Buoy,
 -002.0,38.98623000,-75.11318000,Fl ,white ,10.00,2982,060,13,  ,Brandywine Shoal Light,https://en.wikipedia.org/wiki/Brandywine_Shoal_Light
 -001.4,38.83259500,-75.10575667,Fl ,green ,04.00,2492,040,07,1 ,Harbor of Refuge North End Light,
