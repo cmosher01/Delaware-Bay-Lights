@@ -1,0 +1,62 @@
+bearing,latitude,longitude,style,color,rate,offset,height,visibility,label,name,link
+
+-011.9,38.78480298,-75.10430060,,,,,,,,viewing location,
+
+-087.8,38.78530500,-75.12149000,Fl ,red   ,04.00,2522,027,01,  ,Lewes Breakwater Middle Light,
+-076.9,38.79414000,-75.15587500,Fl ,green ,04.00,2841,018,06,1R,Roosevelt Inlet Jetty Light,https://www.yelp.com/biz_photos/roosevelt-inlet-lewes
+-076.3,38.79486667,-75.15734167,Fl ,red   ,04.00,3815,018,06,2 ,Roosevelt Inlet Jetty Light,https://www.yelp.com/biz_photos/roosevelt-inlet-lewes
+-074.7,38.78777333,-75.11820333,Iso,red   ,04.00,2950,049,01,  ,Lewes Breakwater Front Light,https://www.tripadvisor.com/LocationPhotoDirectLink-g34028-d1640435-i101517389-Lewes_Beach-Lewes_Delaware.html
+-061.1,38.79658667,-75.13174833,Fl ,white ,04.00,1025,001,01,CG,Harbor of Refuge Lighted Mooring Buoy,
+-044.8,38.93662500,-75.29816667,Fl ,green ,04.00,1906,025,06,1M,Mispillion Inlet South Jetty Light,https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/
+-044.6,38.93717000,-75.29795000,Fl ,red   ,04.00,2482,025,06,2 ,Mispillion Inlet North Jetty Light,https://www.delaware-surf-fishing.com/surf-fishing-101/mispillion-river-entrance-tide-chart-2019/dsc_0055-copy-2/
+
+-031.5,38.80050500,-75.11665667,Fl ,green ,04.00,0825,045,07,3 ,Delaware Breakwater West End Light,http://listoflights.org/images/leuchtfeuer/gross/J12812.jpg
+-024.8,38.95150000,-75.20323833,Fl ,yellow,06.00,0555,001,01,B ,Big Stone Beach Tanker Anchorage Lighted Buoy,
+-018.1,38.96093833,-75.17823500,Fl ,yellow,04.00,1069,001,01,G ,Big Stone Beach Tanker Anchorage Lighted Buoy,
+-017.7,39.18222500,-75.26844833,Iso,white ,06.00,1261,061,16,  ,Elbow of Cross Ledge Light,https://en.wikipedia.org/wiki/Elbow_of_Cross_Ledge_Light
+-013.3,39.12664833,-75.20868167,Oc ,white ,04.00,1494,059,10,  ,Miah Maull Shoal Light,https://en.wikipedia.org/wiki/Miah_Maull_Shoal_Light
+-013.1,38.83573167,-75.11951167,Fl ,white ,04.00,1048,022,06,W ,Delaware Bay West Icebreaker Light,
+-012.9,39.04825000,-75.18220333,Fl ,red   ,09.50,0747,059,10,  ,Fourteen Foot Bank Light,https://en.wikipedia.org/wiki/Fourteen_Foot_Bank_Light
+-012.3,38.89733500,-75.13573667,Fl ,yellow,02.50,2976,001,01,A ,Big Stone Beach Tanker Anchorage Lighted Buoy,
+-009.2,39.03566667,-75.15662667,Fl ,red   ,04.00,3615,001,01,16,Delaware Bay Main Channel Lighted Buoy,
+-007.2,39.00511167,-75.14021167,Fl ,red   ,02.50,2091,001,01,14,Delaware Bay Main Channel Lighted Buoy,
+-005.5,38.83828000,-75.11093000,Q  ,red   ,01.00,1563,015,06,2 ,Delaware Bay East Icebreaker Light (out),
+-005.1,38.98116667,-75.12684667,Fl ,red   ,04.00,1749,001,01,12,Delaware Bay Main Channel Lighted Buoy,
+-002.0,38.98623000,-75.11318000,Fl ,white ,10.00,2982,060,13,  ,Brandywine Shoal Light,https://en.wikipedia.org/wiki/Brandywine_Shoal_Light
+-001.4,38.83259500,-75.10575667,Fl ,green ,04.00,2492,040,07,1 ,Harbor of Refuge North End Light,
+-000.2,38.94021333,-75.10482833,Fl ,red   ,04.40,0649,001,01,10,Delaware Bay Main Channel Lighted Buoy,
++001.3,38.92251167,-75.10018000,Fl ,white ,02.50,2573,023,07,  ,Brown Shoal Light,https://www.lightphotos.net/photos/displayimage.php?album=203&pid=36104
++006.0,           ,            ,Fl ,red   ,02.00,2920,000,00,  ,unknown (azimuth approx.),
++015.3,38.79712000,-75.09997333,   ,      ,00.00,0000,061,00,  ,Delaware Breakwater East End Light,
++017.3,38.81450833,-75.09239000,Fl ,white ,10.00,0716,072,19,  ,Harbor of Refuge Light,https://en.wikipedia.org/wiki/Harbor_of_Refuge_Light
+
++022.9,38.90819333,-75.03735000,Fl ,red   ,04.00,2560,001,01,2 ,Cape May Canal West Entrance Approach Lighted Buoy,
++037.1,38.93299500,-74.96038333,Fl ,white ,15.00,1745,165,22,  ,Cape May Light,https://capemaymac.org/experience/cape-may-lighthouse/
++046.8,38.79425333,-75.09140500,   ,      ,00.00,2439,000,00,  ,Delaware Entrance Speaking Station,https://www.alamy.com/stock-photo-the-pilot-radar-tower-at-cape-henlopen-state-park-in-delaware-usa-19517490.html
++052.3,38.82248833,-75.04163333,Fl ,red   ,02.50,0589,001,01,8 ,Delaware Bay Entrance Channel Lighted Buoy,
+
+-060.2,38.98367700,-75.55319900,Iso,red   ,03.00,1835,519,00,  ,"Delaware Division Of Communications, ASR 1060162, Lake Forest High School, 5423 Killen's Pond Road, Felton",
+-055.0,38.95536680,-75.41807730,Fl ,red   ,02.00,0817,262,00,  ,"Comcast Tower, ASR 1051563, 6628 Big Stone Beach Road, Milford",
+-053.9,39.01268500,-75.50772500,Iso,red   ,03.00,1553,289,00,  ,"ASR 1034028, 3449 Midstate Road, Frederica ??? (was approx. 53.0)",
+-052.5,39.06359400,-75.57390300,Fl ,red   ,03.00,3543,524,00,  ,"ASR 1031409, 3462 Henry Cowgill Road, Wyoming ??? (was 51.3)",
+-051.0,39.06945000,-75.55854000,Fl ,white ,01.50,2388,469,00,  ,"American Tower, ASR 1033243, 114 Brians Drive, Woodside",
+-037.0,           ,            ,Oc ,red   ,06.00,0133,000,00,  ,unknown (azimuth approx.),
+-035.0,           ,            ,Fl ,red   ,02.00,2252,000,00,  ,unknown (azimuth approx.),
+
++030.8,           ,            ,Fl ,red   ,02.50,1531,000,00,  ,unknown (azimuth approx.),
++031.0,           ,            ,Oc ,red   ,03.00,3215,000,00,  ,unknown (azimuth approx.),
++032.0,           ,            ,Fl ,red   ,04.00,3250,000,00,  ,unknown (azimuth approx.),
++033.0,           ,            ,Fl ,red   ,03.00,1831,000,00,  ,unknown (azimuth approx.),
++034.1,           ,            ,Iso,red   ,02.60,2555,000,00,  ,unknown,
++035.5,           ,            ,Fl ,red   ,02.00,3893,000,00,  ,unknown,
++036.2,           ,            ,Fl ,red   ,03.00,3219,000,00,  ,unknown,
++039.2,           ,            ,Fl ,red   ,03.00,2729,000,00,  ,unknown,
++039.3,           ,            ,Fl ,red   ,03.00,3359,000,00,  ,unknown,
+
+-092.3,38.78290390,-75.16481420,Fl ,red   ,03.00,3826,400,00,  ,University of Delaware wind turbine,https://publicutility.ceoe.udel.edu/lewesturbine/
+
+-093.1,38.77442300,-75.34224200,Iso,red   ,03.00,2769,337,00,  ,"Delaware Division Of Communications, ASR 1060468, Gravel Hill Road at Lancaster Lane, Milton",
+
++004.3,           ,            ,Iso,white ,06.00,3160,000,00,  ,end of pier light B?,
++005.0,           ,            ,Q  ,white ,00.94,0098,000,00,  ,end of pier quick (azimuth approx.),
++008.3,           ,            ,Iso,white ,06.00,0985,000,00,  ,end of pier light C?,

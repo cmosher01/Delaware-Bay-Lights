@@ -2,26 +2,24 @@ plugins {
     id 'application'
 }
 
-def inc(module) {
-    apply from: "${projectDir}/gradle/${module}.gradle"
-}
-
-inc('version')
+version = '1.0.0'
 
 group = 'nu.mine.mosher'
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of 15
-        vendor = JvmVendorSpec.ADOPTOPENJDK
-    }
+repositories {
+    mavenCentral()
 }
 
-tasks.withType(JavaCompile) {
-    options.compilerArgs << '--enable-preview'
+dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: 'latest.release'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of 17
+    }
 }
 
 application {
     mainClass.set 'nu.mine.mosher.DelawareBayLights'
-    applicationDefaultJvmArgs << '--enable-preview'
 }

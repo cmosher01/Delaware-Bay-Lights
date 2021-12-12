@@ -18,51 +18,126 @@
 */
 package nu.mine.mosher;
 
-import org.w3c.dom.*;
+import org.apache.commons.csv.*;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.*;
-import javax.xml.xpath.*;
+import javax.xml.xpath.XPathExpressionException;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
 
-import static nu.mine.mosher.OfficeNamespaceContext.ns;
+import static java.lang.Math.*;
 
 public class DelawareBayLights {
 
+    public record LatLng(double latitude, double longitude) {}
+
+    public record Light(
+        double bearing,
+        Optional<LatLng> location,
+        String style,
+        String color,
+        double rate,
+        int offset,
+        int height,
+        int visibility,
+        String label,
+        String name,
+        String link,
+        double distance,
+        double distanceNMi,
+        double trueabs,
+        double truemils,
+        double magabs,
+        double magmils
+    ) {}
+
+    public static double mod(final double x, final double m) {
+        return ((x % m) + m) % m;
+    }
+
+    public static double wrap(final double n, final double min, final double max) {
+        return
+            (min <= n && n < max)
+                ? n
+                : (min + mod(n - min, max - min));
+    }
+
+    public static double computeHeading(final LatLng from, final LatLng to) {
+        double fromLat = toRadians(from.latitude);
+        double fromLng = toRadians(from.longitude);
+        double toLat = toRadians(to.latitude);
+        double toLng = toRadians(to.longitude);
+        double dLng = toLng-fromLng;
+        double heading = atan2(
+            sin(dLng)*cos(toLat),
+            cos(fromLat)*sin(toLat) - sin(fromLat)*cos(toLat)*cos(dLng));
+        return wrap(toDegrees(heading), -180.0D, 180.0D);
+    }
+
+    public static final double EARTH_RADIUS_MILES = 3958.761D;
+
+    private static Optional<Integer> readInteger(final CSVRecord record, final String field) {
+        try {
+            return Optional.of(Integer.parseInt(record.get(field)));
+        } catch (final Exception e) {
+            return Optional.empty();
+        }
+    }
+
+    private static Optional<Double> readDouble(final CSVRecord record, final String field) {
+        try {
+            return Optional.of(Double.parseDouble(record.get(field)));
+        } catch (final Exception e) {
+            return Optional.empty();
+        }
+    }
+
+    private static Optional<LatLng> readLatLng(final CSVRecord record, final String lat, final String lng) {
+        try {
+            return Optional.of(new LatLng(readDouble(record, lat).get(), readDouble(record, lng).get()));
+        } catch (final Exception e) {
+            return Optional.empty();
+        }
+    }
+
+    private static String readString(final CSVRecord record, final String field) {
+        return Optional.ofNullable(record.get(field)).orElse("").trim();
+    }
+
     public static void main(final String... args) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
-        final var builder = factory().newDocumentBuilder();
-        final var doc = builder.parse("DelawareBayLights.fods");
+        final var fmt =
+            CSVFormat.Builder.create()
+                .setHeader()
+                .setSkipHeaderRecord(true)
+                .setTrim(true)
+            .build();
 
-        final var xpath = XPathFactory.newInstance().newXPath();
-        xpath.setNamespaceContext(new OfficeNamespaceContext());
+        final var lights = new ArrayList<Light>(100);
+        try (final var in = new FileReader("DelawareBayLights.csv")) {
+            final var records = fmt.parse(in);
 
-        final var cols = new HashMap<String, Integer>();
-        {
-            final var rowHead = (NodeList)xpath.evaluate(
-                "//office:document[1]/office:body[1]/office:spreadsheet[1]/table:table[1]" +
-                    "/table:table-row[1]/table:table-cell[*]",
-                doc,
-                XPathConstants.NODESET);
-            int iCol = 1;
-            for (int i = 0; i < rowHead.getLength(); ++i) {
-                final var nRow = rowHead.item(i);
-                for (var cel = nRow.getFirstChild(); Objects.nonNull(cel); cel = cel.getNextSibling()) {
-                    if (cel.getNodeType() == Node.ELEMENT_NODE) {
-                        cols.put(cel.getTextContent().trim(), iCol);
-                        ++iCol;
-                    }
+            LatLng home = null;
+            double magoff = 0D;
+            for (final var record : records) {
+                final var br = readDouble(record, "bearing");
+                final var latLng = readLatLng(record, "latitude", "longitude");
+
+                if (Objects.isNull(home)) {
+                    // first data row is special, it must represent the viewing location, and it must have
+                    // latitude/longitude defined. Bearing should be the offset of true north from magnetic north.
+                    home = latLng.get();
+                    magoff = br.get();
+                } else {
+                    lights.add(readLight(home, magoff, record, br.get(), latLng));
                 }
             }
         }
 
-        final var nlRows = (NodeList)xpath.evaluate(
-            "//office:document[1]/office:body[1]/office:spreadsheet[1]/table:table[1]" +
-            "/table:table-row[position()> 2][./table:table-cell/@office:value-type != '']",
-            doc,
-            XPathConstants.NODESET);
+
+
+
 
         final String XHTML_HEAD =
             """
@@ -121,114 +196,90 @@ public class DelawareBayLights {
             outHtml.println("</div>");
         }
 
+
+
+
+
         outHtml.println("<div>");
-        for (int i = 0; i < nlRows.getLength(); ++i) {
-            final var nRow = nlRows.item(i);
-            final var vals = new HashMap<Integer, String>();
-            int iCol = 1;
-            for (var cel = nRow.getFirstChild(); Objects.nonNull(cel); cel = cel.getNextSibling()) {
-                if (cel.getNodeType() == Node.ELEMENT_NODE) {
-                    var val = cel.getAttributes().getNamedItemNS(ns("office"), "value");
-                    if (Objects.isNull(val)) {
-                        val = cel.getAttributes().getNamedItemNS(ns("office"), "string-value");
-                    }
-                    String v;
-                    if (Objects.isNull(val)) {
-                        v = "";
-                    } else {
-                        v = val.getNodeValue().trim();
-                    }
-                    vals.put(iCol, v);
-                    ++iCol;
-                }
+
+        int i = 0;
+        for (final var light : lights) {
+            var quot = light.label();//vals.get(cols.get("label"));
+            if (Objects.isNull(quot) || quot.isEmpty()) {
+                quot = "";
+            } else {
+                quot = " “" + quot + "”";
             }
-            final var bearing = pd(vals.get(cols.get("true bearing")))-YMIN;
-            if (!Double.isNaN(bearing)) {
-                var quot = vals.get(cols.get("label"));
-                if (Objects.isNull(quot) || quot.isEmpty()) {
-                    quot = "";
-                } else {
-                    quot = " “" + quot + "”";
-                }
 
-                var link = vals.get(cols.get("link"));
-                if (Objects.isNull(link)) {
-                    link = "";
-                }
-                link = link.replace("&", "&amp;");
-
-                outHtml.printf(
-                    """
-                        <figure id="label_%03d">
-                            <%s class="light" id="light_%03d" %s/>
-                            <figcaption>
-                                <span class="lightinline" id="lightl_%03d"/><br/>
-                                %s%s<br/>
-                                <i>%s %s %1.1fs %3.0fft %dNMi</i><br/>
-                                %s<br/>
-                                %2.1f miles (%2.1f NMi)<br/>
-                                azimuth: &#x2605; %3.1f° (%d mils); &#x1F9ED; %3.1f° (%d mils)<br/>
-                            </figcaption>
-                        </figure>
-                        """,
-                    i + 1,
-                    link.isEmpty() ? "span" : "a",
-                    i + 1,
-                    link.isEmpty() ? "" : "href=\"" + link + "\"",
-                    i + 1,
-                    vals.get(cols.get("name")),
-                    quot,
-                    vals.get(cols.get("style")),
-                    color(vals.get(cols.get("color"))),
-                    pd(vals.get(cols.get("rate"))),
-                    pd(vals.get(cols.get("height"))),
-                    pint(vals.get(cols.get("visibility"))),
-                    latlon(pd(vals.get(cols.get("latitude"))), pd(vals.get(cols.get("longitude")))),
-                    pd(vals.get(cols.get("distance"))),
-                    pd(vals.get(cols.get("distanceNMi"))),
-                    pd(vals.get(cols.get("true abs"))),
-                    pint(vals.get(cols.get("true mils"))),
-                    pd(vals.get(cols.get("mag abs"))),
-                    pint(vals.get(cols.get("mag mils")))
-                );
-
-                final var r = pd(vals.get(cols.get("rate")));
-                final var y = bearing * 30.0D;
-                final var randDelay = ThreadLocalRandom.current().nextInt(0, 4000);
-
-                var anim = vals.get(cols.get("style"));
-                if (Objects.isNull(anim)) {
-                    anim = "";
-                }
-                if (anim.isBlank()) {
-                    anim = "none";
-                }
-                var color = vals.get(cols.get("color"));
-                if (Objects.isNull(color)) {
-                    color = "";
-                }
-                if (color.isBlank()) {
-                    color = "darkblue";
-                }
-                outCss.printf(
-                    """
-                        #label_%03d { left: %4.0fpx; }
-                        #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
-                        #lightl_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
-                        """,
-                    i + 1,
-                    y,
-                    i + 1,
-                    anim,
-                    color,
-                    r,
-                    randDelay,
-                    i + 1,
-                    anim,
-                    color,
-                    r,
-                    randDelay);
+            var link = light.link();//vals.get(cols.get("link"));
+            if (Objects.isNull(link)) {
+                link = "";
             }
+            link = link.replace("&", "&amp;");
+
+            outHtml.printf(
+                """
+                <figure id="label_%03d">
+                    <%s class="light" id="light_%03d" %s/>
+                    <figcaption>
+                        <span class="lightinline" id="lightl_%03d"/><br/>
+                        %s%s<br/>
+                        <i>%s %s %1.1fs %3dft %dNMi</i><br/>
+                        %s<br/>
+                        %2.1f miles (%2.1f NMi)<br/>
+                        azimuth: &#x2605; %3.1f° (%.0f mils); &#x1F9ED; %3.1f° (%.0f mils)<br/>
+                    </figcaption>
+                </figure>
+                """,
+                i + 1,
+                link.isEmpty() ? "span" : "a",
+                i + 1,
+                link.isEmpty() ? "" : "href=\"" + link + "\"",
+                i + 1,
+                light.name(),
+                quot,
+                light.style(),
+                color(light.color()),
+                light.rate(),
+                light.height(),
+                light.visibility(),
+                latlon(light.location()),
+                light.distance(),
+                light.distanceNMi(),
+                light.trueabs(),
+                light.truemils(),
+                light.magabs(),
+                light.magmils()
+            );
+
+            final var r = light.rate();//pd(vals.get(cols.get("rate")));
+            final var y = (light.bearing()-YMIN) * 30.0D;
+            final var randDelay = light.offset();
+
+            var anim = light.style();
+            if (Objects.isNull(anim)) {
+                anim = "";
+            }
+            if (anim.isBlank()) {
+                anim = "none";
+            }
+            var color = light.color();
+            if (Objects.isNull(color)) {
+                color = "";
+            }
+            if (color.isBlank()) {
+                color = "darkblue";
+            }
+            outCss.printf(
+                """
+                    #label_%03d { left: %4.0fpx; }
+                    #light_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
+                    #lightl_%03d { animation-name: %s; background-color: %s; animation-duration: %1.2fs; animation-delay: %dms; }
+                    """,
+                i + 1, y,
+                i + 1, anim, color, r, randDelay,
+                i + 1, anim, color, r, randDelay);
+            ++i;
         }
         outHtml.println("</div>");
 
@@ -238,13 +289,60 @@ public class DelawareBayLights {
         outHtml.print(XHTML_TAIL);
         outHtml.flush();
         outHtml.close();
-
-
-
-        System.out.flush();
     }
 
-    private static record DMS(
+    private static Light readLight(final LatLng home, final double magoff, final CSVRecord record, final double br, final Optional<LatLng> latLng) {
+        // if lat/long is given, use it to compute bearing; otherwise use the bearing field read in
+        final double bearing = latLng.map(c -> computeHeading(home, c)).orElse(br);
+        final var trueabs = mod(bearing, 360.0D);
+
+        final var distance = distance(home, latLng);
+
+        double magbrg = bearing-magoff;
+        double magabs = mod(magbrg, 360.0D);
+        double magmils = magabs*160D/9D;
+
+        return new Light(
+            bearing,
+            latLng,
+            readString(record, "style"),
+            readString(record, "color"),
+            readDouble(record, "rate").get(),
+            readInteger(record, "offset").get(),
+            readInteger(record, "height").get(),
+            readInteger(record, "visibility").get(),
+            readString(record, "label"),
+            readString(record, "name"),
+            readString(record, "link"),
+            distance,
+            distance*5280D/6076D,
+            trueabs,
+            trueabs*160D/9D,
+            magabs,
+            magmils
+        );
+    }
+
+    private static double distance(LatLng home, Optional<LatLng> latLng) {
+        if (latLng.isEmpty()) {
+            return 0.0D;
+        }
+
+        final var loc = latLng.get();
+
+        final var mid = (
+            sin(toRadians(home.latitude())) *
+            sin(toRadians( loc.latitude()))
+        ) + (
+            cos(toRadians(home.latitude())) *
+            cos(toRadians( loc.latitude())) *
+            cos(toRadians( loc.longitude()) - toRadians(home.longitude()))
+        );
+
+        return acos(mid) * EARTH_RADIUS_MILES;
+    }
+
+    public record DMS(
         long deg,
         long min,
         double sec,
@@ -278,9 +376,16 @@ public class DelawareBayLights {
         }
     }
 
-    private static String latlon(double latitude, double longitude) {
-        var lat = DMS.of(latitude);
-        var lon = DMS.of(longitude);
+    private static String latlon(final Optional<LatLng> location) {
+        if (location.isEmpty()) {
+            return "[unknown location]";
+        }
+        final var loc = location.get();
+        if (abs(loc.latitude()) < 0.001D || abs(loc.longitude()) < 0.001D) {
+            return "[unknown location]";
+        }
+        final var lat = DMS.of(loc.latitude());
+        final var lon = DMS.of(loc.longitude());
         final var flat = lat.fmt(true);
         final var flon = lon.fmt(false);
         if (flat.isBlank() || flon.isBlank()) {
@@ -289,35 +394,10 @@ public class DelawareBayLights {
         return flat +", "+ flon;
     }
 
-    private static long pint(final String s) {
-        final double d;
-        try {
-            d = Double.parseDouble(s);
-        } catch (final Throwable e) {
-            return 0;
-        }
-        return Math.round(Math.rint(d));
-    }
-
     private static String color(String color) {
         if (Objects.isNull(color) || color.isEmpty()) {
             return "";
         }
         return color.substring(0,1).toUpperCase();
-    }
-
-    private static double pd(final String s) {
-        try {
-            return Double.parseDouble(s);
-        } catch (final Throwable e) {
-            return Double.NaN;
-        }
-    }
-
-    private static DocumentBuilderFactory factory() {
-        final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        factory.setValidating(false);
-        factory.setNamespaceAware(true);
-        return factory;
     }
 }
