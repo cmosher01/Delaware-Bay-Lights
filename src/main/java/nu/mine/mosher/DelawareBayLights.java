@@ -227,7 +227,7 @@ public class DelawareBayLights {
                         <i>%s %s %1.1fs %3dft %dNMi</i><br/>
                         %s<br/>
                         %2.1f miles (%2.1f NMi)<br/>
-                        azimuth: &#x2605; %3.1f° (%.0f mils); &#x1F9ED; %3.1f° (%.0f mils)<br/>
+                        azimuth: &#x2605; %.1f° (%+.1f°) (%.0f mils); &#x1F9ED; %.1f° (%.0f mils)<br/>
                     </figcaption>
                 </figure>
                 """,
@@ -247,6 +247,7 @@ public class DelawareBayLights {
                 light.distance(),
                 light.distanceNMi(),
                 light.trueabs(),
+                light.bearing(),
                 light.truemils(),
                 light.magabs(),
                 light.magmils()
